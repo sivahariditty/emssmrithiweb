@@ -1,0 +1,2878 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Guten\n"
+"POT-Creation-Date: 2019-05-09 16:08+0200\n"
+"PO-Revision-Date: 2016-08-27 13:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: Kaira\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;"
+"esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#: 404.php:17 customizer/customizer-options.php:1938
+msgid "Oops! <span>404</span>"
+msgstr ""
+
+#: 404.php:20 customizer/customizer-options.php:1945
+msgid ""
+"It looks like that page does not exist. <br />Return home "
+"or try a search"
+msgstr ""
+
+#: comments.php:30
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:46 comments.php:66
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:49 comments.php:69
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:50 comments.php:70
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:82
+msgid "Comments are closed."
+msgstr ""
+
+#: customizer/customizer-library/custom-controls/imageselect.php:22
+msgid "Full"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:18
+msgid "Standard Fonts"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:20
+msgid "Google Fonts"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:125
+msgid "All"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:126
+msgid "Cyrillic"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:127
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:128
+msgid "Devanagari"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:129
+msgid "Greek"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:130
+msgid "Greek Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:131
+msgid "Khmer"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:132
+msgid "Latin"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:133
+msgid "Latin Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:134
+msgid "Vietnamese"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:194
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:198
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:202
+msgctxt "font style"
+msgid "Monospaced"
+msgstr ""
+
+#: customizer/customizer-options.php:36
+msgid "Site Identity"
+msgstr ""
+
+#: customizer/customizer-options.php:38
+#: customizer/customizer-options.php:158
+msgid ""
+"Change the <a href=\"#guten-site-layout-section-header\" "
+"rel=\"tc-section\">Header Layout</a> or <a href=\"#guten-"
+"site-layout-section-footer\" rel=\"tc-section\">Footer "
+"Layouts</a><br />Add a <a href=\"#guten-site-layout-"
+"section-slider\" rel=\"tc-section\">Home Page Slider</a> "
+"to the home page<br />Change <a href=\"#guten-panel-colors"
+"\" rel=\"tc-panel\">Theme Layout Colors</a><br />Edit the "
+"<a href=\"#guten-blog-section-blog\" rel=\"tc-section"
+"\">Blog Layout</a> section<br />Edit <a href=\"#guten-site-"
+"layout-section-page\" rel=\"tc-section\">Pages Featured "
+"Images</a><br />Edit <a href=\"#guten-blog-section-post\" "
+"rel=\"tc-section\">Single Posts featured images</a><br /"
+">Add <a href=\"#guten-social-section\" rel=\"tc-section"
+"\">Social Links</a> to your site"
+msgstr ""
+
+#: customizer/customizer-options.php:43
+msgid "Site Title top padding"
+msgstr ""
+
+#: customizer/customizer-options.php:50
+msgid "Site Title bottom padding"
+msgstr ""
+
+#: customizer/customizer-options.php:57
+msgid "Set a max-width for the logo"
+msgstr ""
+
+#: customizer/customizer-options.php:60
+msgid "This only applies if a logo image is uploaded"
+msgstr ""
+
+#: customizer/customizer-options.php:64
+msgid "Show Site Title (with logo uploaded)"
+msgstr ""
+
+#: customizer/customizer-options.php:71
+msgid "Show Site Tagline (with logo uploaded)"
+msgstr ""
+
+#: customizer/customizer-options.php:78
+msgid "Float side by side"
+msgstr ""
+
+#: customizer/customizer-options.php:88
+msgid ""
+"Adjust <a href=\"#guten-typography-section\" rel=\"tc-"
+"section\">Title & Tagline Settings</a><br /><br /"
+"><b>Adjust Logo top padding</b> (with uploaded logo)"
+msgstr ""
+
+#: customizer/customizer-options.php:95
+msgid "Guten Theme Settings"
+msgstr ""
+
+#: customizer/customizer-options.php:103
+msgid "Site Breakpoints"
+msgstr ""
+
+#: customizer/customizer-options.php:105
+msgid ""
+"Adjust some <a href=\"#guten-panel-mobile-settings\" rel="
+"\"tc-panel\">Mobile/Tablet Settings</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:111
+msgid "Disable Responsive on Guten"
+msgstr ""
+
+#: customizer/customizer-options.php:118
+msgid "Tablet Breakpoint"
+msgstr ""
+
+#: customizer/customizer-options.php:125
+msgid "Mobile Breakpoint"
+msgstr ""
+
+#: customizer/customizer-options.php:131
+msgid "Always On"
+msgstr ""
+
+#: customizer/customizer-options.php:132
+msgid "Tablet"
+msgstr ""
+
+#: customizer/customizer-options.php:133
+msgid "Mobile"
+msgstr ""
+
+#: customizer/customizer-options.php:134
+msgid "Custom"
+msgstr ""
+
+#: customizer/customizer-options.php:138
+msgid "Menu Breakpoint"
+msgstr ""
+
+#: customizer/customizer-options.php:146
+msgid "Enter the breakpoint size for mobile menu"
+msgstr ""
+
+#: customizer/customizer-options.php:156
+#: customizer/customizer-options.php:176
+msgid "Site Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:164
+msgid "Disable Google Fonts"
+msgstr ""
+
+#: customizer/customizer-options.php:167
+msgid ""
+"This will remove the connection to Google Fonts and let "
+"you select only web-safe fonts under the <a href=\"#guten-"
+"panel-font-settings\" rel=\"tc-panel\">Guten Font "
+"Settings</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:171
+msgid "Boxed Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:172
+msgid "Full Width Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:184
+msgid "Site Container Width"
+msgstr ""
+
+#: customizer/customizer-options.php:192
+msgid ""
+"Set the header, content & footer widths of your site (900 "
+"pixels to 1400 pixels)"
+msgstr ""
+
+#: customizer/customizer-options.php:197
+msgid "Content Only Width"
+msgstr ""
+
+#: customizer/customizer-options.php:205
+msgid ""
+"Set only the content width for all pages (900 pixels to "
+"1400 pixels)"
+msgstr ""
+
+#: customizer/customizer-options.php:210
+msgid "Set Header Top Bar to Browser Width"
+msgstr ""
+
+#: customizer/customizer-options.php:217
+msgid "Set Header to Browser Width"
+msgstr ""
+
+#: customizer/customizer-options.php:224
+msgid "Set All Pages Content to Browser Width"
+msgstr ""
+
+#: customizer/customizer-options.php:231
+msgid "Set Footer to Browser Width"
+msgstr ""
+
+#: customizer/customizer-options.php:238
+msgid "Set Footer Bottom Bar to Browser Width"
+msgstr ""
+
+#: customizer/customizer-options.php:245
+msgid "Sidebar Width"
+msgstr ""
+
+#: customizer/customizer-options.php:253
+msgid "Set the sidebar width for all pages (25% to 45%)"
+msgstr ""
+
+#: customizer/customizer-options.php:258
+msgid "Add Sidebar divider line"
+msgstr ""
+
+#: customizer/customizer-options.php:265
+msgid "Remove Content Background & Borders"
+msgstr ""
+
+#: customizer/customizer-options.php:272
+msgid "Content Border Radius"
+msgstr ""
+
+#: customizer/customizer-options.php:286
+msgid ""
+"<span><b>Guten Premium Features:</b><br/>- Guten Premium "
+"comes with Page Layouts to import<br />- Add a Back To Top "
+"button<br />- Premium offers extra built in SEO settings</"
+"span>"
+msgstr ""
+
+#: customizer/customizer-options.php:294
+#: customizer/customizer-options.php:1543
+#: customizer/customizer-options.php:1824
+#: customizer/customizer-options.php:1976
+msgid "Header"
+msgstr ""
+
+#: customizer/customizer-options.php:296
+msgid ""
+"Customize the <a href=\"#guten-panel-colors-section-header"
+"\" rel=\"tc-section\">Header Colors</a><br />Add your <a "
+"href=\"#guten-social-section\" rel=\"tc-section\">Social "
+"links</a><br />Edit <a href=\"#guten-website-section-text-"
+"header\" rel=\"tc-section\">Header texts</a><br />Select "
+"<a href=\"#guten-panel-font-settings\" rel=\"tc-panel"
+"\">Site Fonts</a> for the theme"
+msgstr ""
+
+#: customizer/customizer-options.php:302
+msgid "Remove Top Bar"
+msgstr ""
+
+#: customizer/customizer-options.php:309
+msgid "Switch Top Bar"
+msgstr ""
+
+#: customizer/customizer-options.php:315
+msgid "Transparent Header"
+msgstr ""
+
+#: customizer/customizer-options.php:316
+msgid "Basic Header"
+msgstr ""
+
+#: customizer/customizer-options.php:317
+msgid "Centered Header"
+msgstr ""
+
+#: customizer/customizer-options.php:318
+msgid "Centered Header Social"
+msgstr ""
+
+#: customizer/customizer-options.php:319
+msgid "Standard Header"
+msgstr ""
+
+#: customizer/customizer-options.php:320
+msgid "Standard Header Social"
+msgstr ""
+
+#: customizer/customizer-options.php:321
+msgid "Side Layout Header"
+msgstr ""
+
+#: customizer/customizer-options.php:322
+msgid "Transparent Header Centered"
+msgstr ""
+
+#: customizer/customizer-options.php:323
+msgid "Big Header + Search"
+msgstr ""
+
+#: customizer/customizer-options.php:324
+msgid "Standard Header + Search"
+msgstr ""
+
+#: customizer/customizer-options.php:328
+msgid "Header Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:336
+msgid "Remove Main Navigation Section"
+msgstr ""
+
+#: customizer/customizer-options.php:343
+msgid "Switch Header"
+msgstr ""
+
+#: customizer/customizer-options.php:350
+msgid "Add bottom border"
+msgstr ""
+
+#: customizer/customizer-options.php:357
+msgid "Remove Slider Top Space"
+msgstr ""
+
+#: customizer/customizer-options.php:363
+#: customizer/customizer-options.php:762
+#: customizer/customizer-options.php:1241
+msgid "Plain"
+msgstr ""
+
+#: customizer/customizer-options.php:364
+msgid "Solid"
+msgstr ""
+
+#: customizer/customizer-options.php:365
+msgid "Underlined"
+msgstr ""
+
+#: customizer/customizer-options.php:366
+msgid "Blocks"
+msgstr ""
+
+#: customizer/customizer-options.php:370
+msgid "Navigation Style"
+msgstr ""
+
+#: customizer/customizer-options.php:378
+msgid "Navigation - Normal Case"
+msgstr ""
+
+#: customizer/customizer-options.php:386
+msgid ""
+"<a href=\"https://kairaweb.com/documentation/change-"
+"navigation-drop-direction-custom-css-class/\" target="
+"\"_blank\">Switch the direction</a> of the navigation "
+"dropdown"
+msgstr ""
+
+#: customizer/customizer-options.php:389
+msgid "Align Right"
+msgstr ""
+
+#: customizer/customizer-options.php:390
+msgid "Align Left"
+msgstr ""
+
+#: customizer/customizer-options.php:391
+msgid "Align Center"
+msgstr ""
+
+#: customizer/customizer-options.php:395
+msgid "Navigation Alignment"
+msgstr ""
+
+#: customizer/customizer-options.php:404
+msgid "Add WooCommerce Drop Down Cart"
+msgstr ""
+
+#: customizer/customizer-options.php:412
+msgid "Remove Phone Number"
+msgstr ""
+
+#: customizer/customizer-options.php:419
+msgid "Remove Address"
+msgstr ""
+
+#: customizer/customizer-options.php:426
+#: customizer/customizer-options.php:1097
+msgid "Remove Extra Text"
+msgstr ""
+
+#: customizer/customizer-options.php:434
+#: customizer/customizer-options.php:1991
+msgid "Remove WooCommerce Cart"
+msgstr ""
+
+#: customizer/customizer-options.php:442
+#: customizer/customizer-options.php:1104
+msgid "Remove Social Icons"
+msgstr ""
+
+#: customizer/customizer-options.php:449
+msgid "Remove Search"
+msgstr ""
+
+#: customizer/customizer-options.php:456
+msgid "Header Bottom Margin"
+msgstr ""
+
+#: customizer/customizer-options.php:459
+msgid ""
+"You can also edit the <a href=\"#guten-site-layout-section-"
+"footer\" rel=\"tc-section\">Footer Top Margin</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:466
+msgid ""
+"<span><b>Guten Premium Features:</b><br />- Turn on a "
+"Sticky Header/Navigation<br />- Change Shopping Cart icon "
+"to bag/cart/basket<br />- Option to replace the default "
+"search with a more advanced search plugin shortcode</span>"
+msgstr ""
+
+#: customizer/customizer-options.php:474
+#: customizer/customizer-options.php:1671
+#: customizer/customizer-options.php:2023
+msgid "Home Page Slider"
+msgstr ""
+
+#: customizer/customizer-options.php:476
+msgid ""
+"Edit the <a href=\"#guten-panel-colors-section-slider\" "
+"rel=\"tc-section\">Default Slider colors</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:481
+msgid "Default Slider"
+msgstr ""
+
+#: customizer/customizer-options.php:482
+#: customizer/customizer-options.php:605
+msgid "Slider Shortcode"
+msgstr ""
+
+#: customizer/customizer-options.php:483
+msgid "Featured Image"
+msgstr ""
+
+#: customizer/customizer-options.php:484
+#: customizer/customizer-options.php:688
+#: customizer/customizer-options.php:968
+#: customizer/customizer-options.php:1053
+msgid "None"
+msgstr ""
+
+#: customizer/customizer-options.php:488
+msgid "Choose a Slider"
+msgstr ""
+
+#: customizer/customizer-options.php:496
+msgid "Slider Categories"
+msgstr ""
+
+#: customizer/customizer-options.php:499
+msgid ""
+"Add a Category ID to display Posts in the slider.<br />Get "
+"the Category ID at <a href=\"edit-tags.php?"
+"taxonomy=category\" target=\"_blank\">Posts -> Categories</"
+"a>.<br /><br />Read more: <a href=\"https://gutentheme.org/"
+"documentation/setting-up-the-default-slider/\" target="
+"\"_blank\"><b>Setting up the Default Slider</b></a>"
+msgstr ""
+
+#: customizer/customizer-options.php:503
+msgid "Set slider to full width"
+msgstr ""
+
+#: customizer/customizer-options.php:509
+msgid "Small Banner Size Slider"
+msgstr ""
+
+#: customizer/customizer-options.php:510
+msgid "Medium Banner Size Slider"
+msgstr ""
+
+#: customizer/customizer-options.php:511
+msgid "Large Banner Size Slider"
+msgstr ""
+
+#: customizer/customizer-options.php:512
+msgid "Use Actual Image Proportions"
+msgstr ""
+
+#: customizer/customizer-options.php:516
+msgid "Slider Size"
+msgstr ""
+
+#: customizer/customizer-options.php:523
+msgid "Fade"
+msgstr ""
+
+#: customizer/customizer-options.php:524
+msgid "Cover Fade"
+msgstr ""
+
+#: customizer/customizer-options.php:525
+msgid "Uncover Fade"
+msgstr ""
+
+#: customizer/customizer-options.php:526
+msgid "Cover"
+msgstr ""
+
+#: customizer/customizer-options.php:527
+msgid "Scroll"
+msgstr ""
+
+#: customizer/customizer-options.php:531
+msgid "Slider Scroll Effect"
+msgstr ""
+
+#: customizer/customizer-options.php:539
+msgid "Slider Scroll Duration"
+msgstr ""
+
+#: customizer/customizer-options.php:542
+msgid "The time it takes between slides"
+msgstr ""
+
+#: customizer/customizer-options.php:547
+msgid "Slider Transition Duration"
+msgstr ""
+
+#: customizer/customizer-options.php:550
+msgid "The time of the transition between slides"
+msgstr ""
+
+#: customizer/customizer-options.php:555
+msgid "Link Slide to post"
+msgstr ""
+
+#: customizer/customizer-options.php:558
+msgid "Specify custom links on each slider post"
+msgstr ""
+
+#: customizer/customizer-options.php:563
+msgid "Pause Slider on mouse hover"
+msgstr ""
+
+#: customizer/customizer-options.php:570
+msgid "Remove Slider Title & Text"
+msgstr ""
+
+#: customizer/customizer-options.php:577
+msgid "Remove Slider Excerpt Only"
+msgstr ""
+
+#: customizer/customizer-options.php:584
+msgid "Remove Slider Pagination"
+msgstr ""
+
+#: customizer/customizer-options.php:591
+msgid "Stop Auto Scroll"
+msgstr ""
+
+#: customizer/customizer-options.php:600
+msgid ""
+"<span><b>Guten Premium Features:</b><br />- Add custom "
+"links to each slide</span>"
+msgstr ""
+
+#: customizer/customizer-options.php:608
+msgid "Enter the full shortcode given by the slider."
+msgstr ""
+
+#: customizer/customizer-options.php:614
+msgid ""
+"We recommend trying out <a href=\"https://kairaweb.com/go/"
+"meta-slider/\" target=\"_blank\">Meta Slider</a> (Free or "
+"Pro)"
+msgstr ""
+
+#: customizer/customizer-options.php:618
+msgid "Extra Small Image"
+msgstr ""
+
+#: customizer/customizer-options.php:619
+msgid "Small Image"
+msgstr ""
+
+#: customizer/customizer-options.php:620
+msgid "Medium Image"
+msgstr ""
+
+#: customizer/customizer-options.php:621
+msgid "Large Image"
+msgstr ""
+
+#: customizer/customizer-options.php:622
+msgid "Use Full Image"
+msgstr ""
+
+#: customizer/customizer-options.php:626
+msgid "Image Size"
+msgstr ""
+
+#: customizer/customizer-options.php:634
+msgid "Make Full Width"
+msgstr ""
+
+#: customizer/customizer-options.php:645
+msgid "Page Title"
+msgstr ""
+
+#: customizer/customizer-options.php:652
+msgid "Remove all Page Titles"
+msgstr ""
+
+#: customizer/customizer-options.php:658
+#: customizer/customizer-options.php:1050
+msgid "Standard Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:659
+msgid "Banner Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:663
+msgid "Title Bar Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:671
+msgid "Page Titles - Centered"
+msgstr ""
+
+#: customizer/customizer-options.php:682
+msgid "Pages / Sidebar"
+msgstr ""
+
+#: customizer/customizer-options.php:689
+#: customizer/customizer-options.php:969
+msgid "Standard"
+msgstr ""
+
+#: customizer/customizer-options.php:690
+#: customizer/customizer-options.php:970
+msgid "Page Banner"
+msgstr ""
+
+#: customizer/customizer-options.php:694
+#: customizer/customizer-options.php:974
+msgid "Featured Image Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:701
+#: customizer/customizer-options.php:981
+msgid "Extra Small Banner"
+msgstr ""
+
+#: customizer/customizer-options.php:702
+#: customizer/customizer-options.php:982
+msgid "Small Banner"
+msgstr ""
+
+#: customizer/customizer-options.php:703
+#: customizer/customizer-options.php:983
+msgid "Medium Banner"
+msgstr ""
+
+#: customizer/customizer-options.php:704
+#: customizer/customizer-options.php:984
+msgid "Large Banner"
+msgstr ""
+
+#: customizer/customizer-options.php:705
+#: customizer/customizer-options.php:985
+msgid "Use Proper Image"
+msgstr ""
+
+#: customizer/customizer-options.php:709
+#: customizer/customizer-options.php:989
+msgid "Page Banner Size"
+msgstr ""
+
+#: customizer/customizer-options.php:717
+#: customizer/customizer-options.php:997
+msgid "Full Width Banner"
+msgstr ""
+
+#: customizer/customizer-options.php:725
+msgid "Break Sidebar into Blocks"
+msgstr ""
+
+#: customizer/customizer-options.php:733
+msgid "Sidebar Widget Spacing"
+msgstr ""
+
+#: customizer/customizer-options.php:745
+msgid "Sidebar Title Size"
+msgstr ""
+
+#: customizer/customizer-options.php:752
+#: customizer/customizer-options.php:1231
+msgid "Center Align Title"
+msgstr ""
+
+#: customizer/customizer-options.php:758
+#: customizer/customizer-options.php:1237
+msgid "Title Sideline"
+msgstr ""
+
+#: customizer/customizer-options.php:759
+#: customizer/customizer-options.php:1238
+msgid "Title Underline"
+msgstr ""
+
+#: customizer/customizer-options.php:760
+#: customizer/customizer-options.php:1239
+msgid "Underlined Dots"
+msgstr ""
+
+#: customizer/customizer-options.php:761
+#: customizer/customizer-options.php:1240
+msgid "Underlined Solid"
+msgstr ""
+
+#: customizer/customizer-options.php:766
+msgid "Widget Title Styling"
+msgstr ""
+
+#: customizer/customizer-options.php:778
+msgid "Blog List"
+msgstr ""
+
+#: customizer/customizer-options.php:785
+msgid "Remove Blog & Archive Page Titles"
+msgstr ""
+
+#: customizer/customizer-options.php:792
+msgid "Remove text before Archive Title"
+msgstr ""
+
+#: customizer/customizer-options.php:795
+msgid ""
+"This will not update in the Customizer. Exit the "
+"Customizer to view the change"
+msgstr ""
+
+#: customizer/customizer-options.php:800
+msgid "Break Posts into Blocks"
+msgstr ""
+
+#: customizer/customizer-options.php:806
+msgid "Left Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:807
+msgid "Right Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:808
+msgid "Alternate Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:809
+msgid "Top Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:810
+msgid "Blocks Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:814
+msgid "Blog Posts Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:821
+msgid "All Images Square"
+msgstr ""
+
+#: customizer/customizer-options.php:822
+msgid "All Images Round"
+msgstr ""
+
+#: customizer/customizer-options.php:823
+msgid "Actual Image Shape"
+msgstr ""
+
+#: customizer/customizer-options.php:827
+msgid "Blog Post Image Shape"
+msgstr ""
+
+#: customizer/customizer-options.php:835
+msgid "Blog Image Cut"
+msgstr ""
+
+#: customizer/customizer-options.php:838
+msgid ""
+"Select which cut the Blog list uses<br />Recommended: "
+"Optimize images before upload"
+msgstr ""
+
+#: customizer/customizer-options.php:842
+#: customizer/customizer-options.php:2414
+msgid "2"
+msgstr ""
+
+#: customizer/customizer-options.php:843
+#: customizer/customizer-options.php:2415
+msgid "3"
+msgstr ""
+
+#: customizer/customizer-options.php:844
+#: customizer/customizer-options.php:2416
+msgid "4"
+msgstr ""
+
+#: customizer/customizer-options.php:845
+#: customizer/customizer-options.php:2417
+msgid "5"
+msgstr ""
+
+#: customizer/customizer-options.php:849
+msgid "Blog Columns"
+msgstr ""
+
+#: customizer/customizer-options.php:856
+msgid "Image/Block Style"
+msgstr ""
+
+#: customizer/customizer-options.php:857
+msgid "Post/Block Style"
+msgstr ""
+
+#: customizer/customizer-options.php:861
+msgid "Blocks Styling"
+msgstr ""
+
+#: customizer/customizer-options.php:869
+msgid "Blocks Spacing"
+msgstr ""
+
+#: customizer/customizer-options.php:881
+msgid "Exclude Blog Categories"
+msgstr ""
+
+#: customizer/customizer-options.php:884
+msgid ""
+"Enter the ID's of the post categories you'd like to "
+"EXCLUDE from the Blog, enter only the ID's with a minus "
+"sign (-) before them, separated by a comma (,)<br />Eg: "
+"\"-13, -17, -19\"<br /><br />If you enter the ID's without "
+"the minus then it'll show ONLY posts in those categories."
+"<br /><br />Get the ID at <b>Posts -> Categories</b>."
+msgstr ""
+
+#: customizer/customizer-options.php:889
+msgid "Blog Left Sidebar"
+msgstr ""
+
+#: customizer/customizer-options.php:896
+msgid "Blog Archives/Categories Left Sidebar"
+msgstr ""
+
+#: customizer/customizer-options.php:903
+msgid "Search Results Left Sidebar"
+msgstr ""
+
+#: customizer/customizer-options.php:910
+msgid "Blog Full Width"
+msgstr ""
+
+#: customizer/customizer-options.php:917
+msgid "Blog Archives/Categories Full Width"
+msgstr ""
+
+#: customizer/customizer-options.php:924
+msgid "Search Results Full Width"
+msgstr ""
+
+#: customizer/customizer-options.php:932
+msgid "Blog Add Floating Sidebar"
+msgstr ""
+
+#: customizer/customizer-options.php:939
+msgid "Blog Archives Add Floating Sidebar"
+msgstr ""
+
+#: customizer/customizer-options.php:946
+msgid "Search Results Add Floating Sidebar"
+msgstr ""
+
+#: customizer/customizer-options.php:955
+msgid ""
+"<span><b>Guten Premium Features:</b><br />- Display Full "
+"Post or Customized Summary of post<br />- Remove Post Date "
+"and/or author<br />- Remove Post Categories and/or "
+"tags<br />- Blocks Layout: Remove Post content/summary</"
+"span>"
+msgstr ""
+
+#: customizer/customizer-options.php:962
+msgid "Blog Single Posts"
+msgstr ""
+
+#: customizer/customizer-options.php:1005
+msgid "Remove date \"Posted On\""
+msgstr ""
+
+#: customizer/customizer-options.php:1012
+msgid "Remove author Byline"
+msgstr ""
+
+#: customizer/customizer-options.php:1019
+msgid "Remove Post Categories"
+msgstr ""
+
+#: customizer/customizer-options.php:1026
+msgid "Remove Post Tags"
+msgstr ""
+
+#: customizer/customizer-options.php:1035
+msgid ""
+"<span><b>Guten Premium Features:</b><br />- Remove OR "
+"Change pagination to Side Arrows<br />- Remove Side "
+"Aligned Social links on Post</span>"
+msgstr ""
+
+#: customizer/customizer-options.php:1043
+#: customizer/customizer-options.php:1768
+#: customizer/customizer-options.php:1883
+msgid "Footer"
+msgstr ""
+
+#: customizer/customizer-options.php:1045
+msgid ""
+"Customize the <a href=\"#guten-panel-colors-section-footer"
+"\" rel=\"tc-section\">Footer Colors</a><br/>Add your <a "
+"href=\"#guten-social-section\" rel=\"tc-section\">Social "
+"links</a><br />Edit <a href=\"#guten-website-section-text-"
+"footer\" rel=\"tc-section\">Footer texts</a> with your "
+"details<br />Select <a href=\"#guten-panel-font-settings\" "
+"rel=\"tc-panel\">Site Fonts</a> for the theme"
+msgstr ""
+
+#: customizer/customizer-options.php:1051
+msgid "Social Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:1052
+msgid "Custom Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:1057
+msgid "Footer Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:1067
+msgid ""
+"The Standard Footer is divided into columns by the amount "
+"of widgets that are added under<br /><i>Dashboard -> "
+"Appearance -> <a href=\"#widgets\" rel=\"tc-panel"
+"\">Widgets</a></i>"
+msgstr ""
+
+#: customizer/customizer-options.php:1073
+msgid ""
+"The Custom Footer is built with <i><a href=\"#widgets\" "
+"rel=\"tc-panel\">Widgets</a></i>, or go to Dashboard -> "
+"Appearance -> Widgets"
+msgstr ""
+
+#: customizer/customizer-options.php:1079
+msgid ""
+"Add your <a href=\"#guten-social-section\" rel=\"tc-section"
+"\">Social links</a> to the footer"
+msgstr ""
+
+#: customizer/customizer-options.php:1083
+msgid "Set Footer to Full Width"
+msgstr ""
+
+#: customizer/customizer-options.php:1090
+msgid "Switch Bottom Bar"
+msgstr ""
+
+#: customizer/customizer-options.php:1112
+msgid "Social Icon Size"
+msgstr ""
+
+#: customizer/customizer-options.php:1124
+msgid "Social Icon Spacing"
+msgstr ""
+
+#: customizer/customizer-options.php:1136
+msgid "1 Column"
+msgstr ""
+
+#: customizer/customizer-options.php:1137
+msgid "2 Columns"
+msgstr ""
+
+#: customizer/customizer-options.php:1138
+msgid "3 Columns"
+msgstr ""
+
+#: customizer/customizer-options.php:1139
+msgid "4 Columns"
+msgstr ""
+
+#: customizer/customizer-options.php:1140
+msgid "5 Columns"
+msgstr ""
+
+#: customizer/customizer-options.php:1144
+msgid "Columns"
+msgstr ""
+
+#: customizer/customizer-options.php:1153
+msgid "Custom Widths"
+msgstr ""
+
+#: customizer/customizer-options.php:1156
+msgid ""
+"Select this box to manually adjust the columns widths by "
+"percentage ( % )"
+msgstr ""
+
+#: customizer/customizer-options.php:1162
+msgid "Column 1 %"
+msgstr ""
+
+#: customizer/customizer-options.php:1168
+msgid "Center Column"
+msgstr ""
+
+#: customizer/customizer-options.php:1171
+msgid "Reduce the width of the column to center it"
+msgstr ""
+
+#: customizer/customizer-options.php:1176
+msgid "Column 2 %"
+msgstr ""
+
+#: customizer/customizer-options.php:1182
+msgid "Column 3 %"
+msgstr ""
+
+#: customizer/customizer-options.php:1188
+msgid "Column 4 %"
+msgstr ""
+
+#: customizer/customizer-options.php:1194
+msgid "Column 5 %"
+msgstr ""
+
+#: customizer/customizer-options.php:1201
+msgid "Footer Top Margin"
+msgstr ""
+
+#: customizer/customizer-options.php:1204
+msgid ""
+"You can also edit the <a href=\"#guten-site-layout-section-"
+"header\" rel=\"tc-section\">Header Bottom Margin</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:1209
+msgid "Footer top padding"
+msgstr ""
+
+#: customizer/customizer-options.php:1216
+msgid "Footer bottom padding"
+msgstr ""
+
+#: customizer/customizer-options.php:1224
+msgid "Footer Widget Title Size"
+msgstr ""
+
+#: customizer/customizer-options.php:1245
+msgid "Footer Widget Title Styling"
+msgstr ""
+
+#: customizer/customizer-options.php:1253
+msgid "Footer Bottom Bar top padding"
+msgstr ""
+
+#: customizer/customizer-options.php:1260
+msgid "Footer Bottom bar bottom padding"
+msgstr ""
+
+#: customizer/customizer-options.php:1269
+msgid ""
+"<span><b>Guten Premium Features:</b><br />- Remove/Edit "
+"Site Attribution copyright text<br />- Remove the Footer "
+"Bottom Bar</span>"
+msgstr ""
+
+#: customizer/customizer-options.php:1277
+msgid "Guten Font Settings"
+msgstr ""
+
+#: customizer/customizer-options.php:1288
+msgid "Title/Tagline Fonts"
+msgstr ""
+
+#: customizer/customizer-options.php:1290
+msgid ""
+"Upload a Site Logo under <a href=\"title_tagline\" rel="
+"\"tc-section\">Site Identity</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:1296
+#: customizer/customizer-options.php:1304
+msgid "Site Title Font"
+msgstr ""
+
+#: customizer/customizer-options.php:1312
+#: customizer/customizer-options.php:2013
+msgid "Site Title Size"
+msgstr ""
+
+#: customizer/customizer-options.php:1319
+msgid "Site Title - Uppercase"
+msgstr ""
+
+#: customizer/customizer-options.php:1326
+msgid "Site Title Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1333
+#: customizer/customizer-options.php:1341
+msgid "Site Tagline Font"
+msgstr ""
+
+#: customizer/customizer-options.php:1349
+msgid "Site Tagline Size"
+msgstr ""
+
+#: customizer/customizer-options.php:1356
+msgid "Site Tagline - Normal Case"
+msgstr ""
+
+#: customizer/customizer-options.php:1362
+msgid "Site Tagline Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1369
+msgid "Site Title Bottom Margin"
+msgstr ""
+
+#: customizer/customizer-options.php:1372
+msgid ""
+"This will set the space between the site title and the "
+"site tagline"
+msgstr ""
+
+#: customizer/customizer-options.php:1380
+msgid "Site Fonts"
+msgstr ""
+
+#: customizer/customizer-options.php:1387
+#: customizer/customizer-options.php:1395
+msgid "Body Font"
+msgstr ""
+
+#: customizer/customizer-options.php:1403
+msgid "Body Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1410
+msgid "Body Font Size"
+msgstr ""
+
+#: customizer/customizer-options.php:1418
+msgid ""
+"Small <b>|</b> Normal <b>|</b> Medium <b>|</b> Large <b>|</"
+"b> Larger"
+msgstr ""
+
+#: customizer/customizer-options.php:1423
+#: customizer/customizer-options.php:1431
+msgid "Heading Font"
+msgstr ""
+
+#: customizer/customizer-options.php:1439
+#: customizer/customizer-options.php:1783
+msgid "Heading Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1446
+msgid "Heading Size Proportions"
+msgstr ""
+
+#: customizer/customizer-options.php:1454
+msgid "Small <b>|</b> Normal <b>|</b> Medium <b>|</b> Large"
+msgstr ""
+
+#: customizer/customizer-options.php:1459
+msgid "Page Title Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1466
+msgid "Blog List Title Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1473
+msgid "Sidebar Widget Title Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1482
+msgid "WooCommerce Product Title Size"
+msgstr ""
+
+#: customizer/customizer-options.php:1489
+msgid "WooCommerce Product Title Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1501
+msgid "Guten Layout Colors"
+msgstr ""
+
+#: customizer/customizer-options.php:1510
+msgid "Default Colors"
+msgstr ""
+
+#: customizer/customizer-options.php:1517
+msgid "Site Boxed Background Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1525
+msgid "Primary Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1533
+msgid "Secondary Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1545
+msgid ""
+"Edit the <a href=\"#guten-site-layout-section-header\" rel="
+"\"tc-section\">Header Settings</a><br />Change the <a href="
+"\"#guten-website-section-text-header\" rel=\"tc-section"
+"\">Header text</a><br />Edit your theme <a href=\"#guten-"
+"panel-font-settings\" rel=\"tc-panel\">Site Fonts</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:1551
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1558
+msgid "Top Bar Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1565
+#: customizer/customizer-options.php:1621
+#: customizer/customizer-options.php:1776
+#: customizer/customizer-options.php:2054
+msgid "Background Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1572
+#: customizer/customizer-options.php:1628
+#: customizer/customizer-options.php:1790
+#: customizer/customizer-options.php:2061
+msgid "Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1579
+msgid "Header Opacity"
+msgstr ""
+
+#: customizer/customizer-options.php:1594
+msgid "Header Cart Background Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1601
+msgid "Header Cart Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1613
+msgid "Navigation"
+msgstr ""
+
+#: customizer/customizer-options.php:1615
+msgid ""
+"Customize the <a href=\"#guten-mobile-panel-section-colors"
+"\" rel=\"tc-section\">Mobile Navigation Colors</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:1635
+msgid "Drop Down Bg Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1642
+#: customizer/customizer-options.php:2089
+msgid "Drop Down Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1649
+msgid "Drop Down Opacity"
+msgstr ""
+
+#: customizer/customizer-options.php:1661
+msgid "Selected/Active Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1673
+msgid ""
+"Edit the <a href=\"#guten-site-layout-section-slider\" rel="
+"\"tc-section\">Slider Settings</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:1679
+msgid "Slider Background Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1686
+msgid "Slider Arrows Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1693
+msgid "Slider Pagination Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1700
+msgid "Slider Text Block Background Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1707
+msgid "Slider Text Block Opacity"
+msgstr ""
+
+#: customizer/customizer-options.php:1719
+msgid "Slider Text Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1726
+msgid "Slider Main Title Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1737
+msgid "Pages"
+msgstr ""
+
+#: customizer/customizer-options.php:1744
+msgid "Content Background Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1751
+msgid "Content Link Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1758
+msgid "Content Link Hover Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1770
+msgid ""
+"Edit the <a href=\"#guten-site-layout-section-footer\" rel="
+"\"tc-section\">Footer Settings</a><br />Change the <a href="
+"\"#guten-website-section-text-footer\" rel=\"tc-section"
+"\">Footer text</a><br />Edit your <a href=\"#guten-panel-"
+"font-settings\" rel=\"tc-panel\">Theme Fonts</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:1798
+msgid "Bottom Bar Bg Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1805
+msgid "Bottom Bar Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1816
+msgid "Guten Theme Text"
+msgstr ""
+
+#: customizer/customizer-options.php:1826
+msgid ""
+"Edit the <a href=\"#guten-site-layout-section-header\" rel="
+"\"tc-section\">Header Settings</a><br />Change the <a href="
+"\"#guten-panel-colors-section-header\" rel=\"tc-section"
+"\">Header Colors</a><br />Edit your theme <a href=\"#guten-"
+"panel-font-settings\" rel=\"tc-panel\">Site Fonts</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:1834
+msgid ""
+"Use your own icon by adding \"fa-\" and the corrent <a "
+"href=\"https://fontawesome.com/icons?d=gallery&c=buildings,"
+"business,chat,code,date-time,design,editors,maps,marketing,"
+"shapes,travel,writing&m=free\" target=\"_blank\">Font "
+"Awesome</a> class name. Eg: \"fa-phone\"<br /><br />Or "
+"remove the icon by saving an empty input."
+msgstr ""
+
+#: customizer/customizer-options.php:1838
+msgid "Phone Number Icon"
+msgstr ""
+
+#: customizer/customizer-options.php:1841
+msgid "fa-phone"
+msgstr ""
+
+#: customizer/customizer-options.php:1845
+msgid "Phone Number"
+msgstr ""
+
+#: customizer/customizer-options.php:1848
+msgid "Call Us: +2782 444 YEAH"
+msgstr ""
+
+#: customizer/customizer-options.php:1852
+msgid "Address Icon"
+msgstr ""
+
+#: customizer/customizer-options.php:1855
+#: customizer/customizer-options.php:1900
+msgid "fa-map-marker-alt"
+msgstr ""
+
+#: customizer/customizer-options.php:1859
+msgid "Address"
+msgstr ""
+
+#: customizer/customizer-options.php:1862
+msgid "Cape Town, South Africa"
+msgstr ""
+
+#: customizer/customizer-options.php:1866
+msgid "Extra Text Icon"
+msgstr ""
+
+#: customizer/customizer-options.php:1869
+msgid "fa-leaf"
+msgstr ""
+
+#: customizer/customizer-options.php:1873
+msgid "Extra Text"
+msgstr ""
+
+#: customizer/customizer-options.php:1876
+msgid "leaf"
+msgstr ""
+
+#: customizer/customizer-options.php:1885
+msgid ""
+"Edit the <a href=\"#guten-site-layout-section-footer\" rel="
+"\"tc-section\">Footer Settings</a><br />Change the <a href="
+"\"#guten-panel-colors-section-footer\" rel=\"tc-section"
+"\">Footer Colors</a><br />Edit your theme <a href=\"#guten-"
+"panel-font-settings\" rel=\"tc-panel\">Site Fonts</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:1893
+msgid ""
+"Use any other icon by adding \"fa-\" and the corrent <a "
+"href=\"https://fontawesome.com/icons?d=gallery&c=buildings,"
+"business,chat,code,date-time,design,editors,maps,marketing,"
+"shapes,travel,writing&m=free\" target=\"_blank\">Font "
+"Awesome</a> class name. Eg: \"fa-phone\"<br /><br />Or "
+"remove the icon by saving an empty input."
+msgstr ""
+
+#: customizer/customizer-options.php:1897
+msgid "Extra Text Icon Left"
+msgstr ""
+
+#: customizer/customizer-options.php:1904
+msgid "Extra Text Left"
+msgstr ""
+
+#: customizer/customizer-options.php:1907
+msgid "Built in sunny Cape Town - "
+msgstr ""
+
+#: customizer/customizer-options.php:1911
+msgid "Extra Text Icon Right"
+msgstr ""
+
+#: customizer/customizer-options.php:1914
+msgid "fa-apple-alt"
+msgstr ""
+
+#: customizer/customizer-options.php:1918
+msgid "Extra Text Right"
+msgstr ""
+
+#: customizer/customizer-options.php:1921
+msgid "More Text"
+msgstr ""
+
+#: customizer/customizer-options.php:1928
+msgid "404 Error / No Results"
+msgstr ""
+
+#: customizer/customizer-options.php:1935
+msgid "404 Error Page Heading"
+msgstr ""
+
+#: customizer/customizer-options.php:1942
+msgid "Error 404 Message"
+msgstr ""
+
+#: customizer/customizer-options.php:1949
+msgid "No Search Results Heading"
+msgstr ""
+
+#: customizer/customizer-options.php:1952
+#: templates/contents/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: customizer/customizer-options.php:1956
+msgid "No Search Results"
+msgstr ""
+
+#: customizer/customizer-options.php:1959
+#: templates/contents/content-none.php:23
+#: templates/contents/content-none.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try "
+"again with some different keywords."
+msgstr ""
+
+#: customizer/customizer-options.php:1968
+msgid "Guten Mobile Settings"
+msgstr ""
+
+#: customizer/customizer-options.php:1983
+msgid "Remove Site Top Bar"
+msgstr ""
+
+#: customizer/customizer-options.php:1999
+msgid "Menu Button Text"
+msgstr ""
+
+#: customizer/customizer-options.php:2006
+msgid "Expand Navigation elements on mobile (always open)"
+msgstr ""
+
+#: customizer/customizer-options.php:2029
+msgid "Add set height to Slides"
+msgstr ""
+
+#: customizer/customizer-options.php:2036
+msgid "Remove Slider Text"
+msgstr ""
+
+#: customizer/customizer-options.php:2046
+msgid "Mobile Menu Colors"
+msgstr ""
+
+#: customizer/customizer-options.php:2048
+msgid ""
+"Customize the <a href=\"#guten-panel-colors\" rel=\"tc-"
+"panel\">Site Layout Colors</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:2068
+msgid "Font Hover/Selected Color"
+msgstr ""
+
+#: customizer/customizer-options.php:2075
+msgid "Drop Down Button Color"
+msgstr ""
+
+#: customizer/customizer-options.php:2082
+msgid "Drop Down Background Color"
+msgstr ""
+
+#: customizer/customizer-options.php:2096
+msgid "Drop Down Font Hover Color"
+msgstr ""
+
+#: customizer/customizer-options.php:2107
+msgid "Guten Social Links"
+msgstr ""
+
+#: customizer/customizer-options.php:2115
+msgid "Social Links Options"
+msgstr ""
+
+#: customizer/customizer-options.php:2122
+msgid "Add Side Aligned Social Icons"
+msgstr ""
+
+#: customizer/customizer-options.php:2125
+msgid ""
+"Add <a href=\"#guten-social-section\" rel=\"tc-section"
+"\">Social Links</a> for this to show"
+msgstr ""
+
+#: customizer/customizer-options.php:2130
+msgid "Position from Top"
+msgstr ""
+
+#: customizer/customizer-options.php:2136
+msgid "Square"
+msgstr ""
+
+#: customizer/customizer-options.php:2137
+msgid "Round"
+msgstr ""
+
+#: customizer/customizer-options.php:2141
+msgid "Side Social Links Design"
+msgstr ""
+
+#: customizer/customizer-options.php:2151
+msgid ""
+"<span><b>Guten Premium Features:</b><br />- Scroll Side "
+"Aligned Icons with the browser<br />- Set Header Social "
+"Icons to brand colors<br />- Set Footer Social Icons to "
+"brand colors<br />- Set Side Aligned Social Icons to brand "
+"colors</span>"
+msgstr ""
+
+#: customizer/customizer-options.php:2158
+msgid "Social Links"
+msgstr ""
+
+#: customizer/customizer-options.php:2165
+msgid "Email Address"
+msgstr ""
+
+#: customizer/customizer-options.php:2171
+msgid "Skype Name"
+msgstr ""
+
+#: customizer/customizer-options.php:2177
+msgid "Facebook"
+msgstr ""
+
+#: customizer/customizer-options.php:2183
+msgid "Twitter"
+msgstr ""
+
+#: customizer/customizer-options.php:2189
+msgid "Google Plus"
+msgstr ""
+
+#: customizer/customizer-options.php:2195
+msgid "SnapChat"
+msgstr ""
+
+#: customizer/customizer-options.php:2201
+msgid "Amazon"
+msgstr ""
+
+#: customizer/customizer-options.php:2207
+msgid "Etsy"
+msgstr ""
+
+#: customizer/customizer-options.php:2213
+msgid "Yelp"
+msgstr ""
+
+#: customizer/customizer-options.php:2219
+msgid "YouTube"
+msgstr ""
+
+#: customizer/customizer-options.php:2225
+msgid "Vimeo"
+msgstr ""
+
+#: customizer/customizer-options.php:2231
+msgid "Instagram"
+msgstr ""
+
+#: customizer/customizer-options.php:2237
+msgid "Pinterest"
+msgstr ""
+
+#: customizer/customizer-options.php:2243
+msgid "Medium"
+msgstr ""
+
+#: customizer/customizer-options.php:2249
+msgid "Behance"
+msgstr ""
+
+#: customizer/customizer-options.php:2255
+msgid "SoundCloud"
+msgstr ""
+
+#: customizer/customizer-options.php:2261
+msgid "Product Hunt"
+msgstr ""
+
+#: customizer/customizer-options.php:2267
+msgid "Slack"
+msgstr ""
+
+#: customizer/customizer-options.php:2273
+msgid "LinkedIn"
+msgstr ""
+
+#: customizer/customizer-options.php:2279
+msgid "Tumblr"
+msgstr ""
+
+#: customizer/customizer-options.php:2285
+msgid "Digg"
+msgstr ""
+
+#: customizer/customizer-options.php:2291
+msgid "Flickr"
+msgstr ""
+
+#: customizer/customizer-options.php:2297
+msgid "Houzz"
+msgstr ""
+
+#: customizer/customizer-options.php:2303
+msgid "Vine"
+msgstr ""
+
+#: customizer/customizer-options.php:2309
+msgid "VK"
+msgstr ""
+
+#: customizer/customizer-options.php:2315
+msgid "Xing"
+msgstr ""
+
+#: customizer/customizer-options.php:2321
+msgid "StumbleUpon"
+msgstr ""
+
+#: customizer/customizer-options.php:2327
+msgid "TripAdvisor"
+msgstr ""
+
+#: customizer/customizer-options.php:2333
+msgid "GitHub"
+msgstr ""
+
+#: customizer/customizer-options.php:2341
+msgid ""
+"Use any other brand icon by adding the corrent <a href="
+"\"https://fontawesome.com/icons?d=gallery&s=brands&m=free"
+"\" target=\"_blank\">Font Awesome</a> class name. Eg: \"fa-"
+"facebook\"<br /><br />This only uses brand icons."
+msgstr ""
+
+#: customizer/customizer-options.php:2345
+#: customizer/customizer-options.php:2375
+msgid "Add a Custom Social Link"
+msgstr ""
+
+#: customizer/customizer-options.php:2351
+#: customizer/customizer-options.php:2363
+#: customizer/customizer-options.php:2381
+msgid "Add the URL"
+msgstr ""
+
+#: customizer/customizer-options.php:2357
+msgid "Add another Custom Social Link"
+msgstr ""
+
+#: customizer/customizer-options.php:2371
+msgid ""
+"Or use another non-brand <a href=\"https://fontawesome.com/"
+"icons?d=gallery&c=buildings,business,chat,code,date-time,"
+"design,editors,maps,marketing,shapes,travel,writing&m=free"
+"\" target=\"_blank\">Font Awesome</a> icon.<br />Eg: \"fa-"
+"bed\"<br /><br />This will not take brand icons."
+msgstr ""
+
+#: customizer/customizer-options.php:2393 functions.php:444
+msgid "WooCommerce"
+msgstr ""
+
+#: customizer/customizer-options.php:2401
+msgid "Product Page (Guten)"
+msgstr ""
+
+#: customizer/customizer-options.php:2408
+msgid "Remove Shop Page Titles"
+msgstr ""
+
+#: customizer/customizer-options.php:2421
+msgid "Product Columns"
+msgstr ""
+
+#: customizer/customizer-options.php:2429
+msgid "Products Per Page"
+msgstr ""
+
+#: customizer/customizer-options.php:2436
+msgid "Remove Shop Results & Sorting"
+msgstr ""
+
+#: customizer/customizer-options.php:2443
+msgid "Remove Product Border"
+msgstr ""
+
+#: customizer/customizer-options.php:2450
+msgid "Remove Categories Count"
+msgstr ""
+
+#: customizer/customizer-options.php:2458
+msgid "Align Product Titles"
+msgstr ""
+
+#: customizer/customizer-options.php:2461
+msgid ""
+"Try keep titles to 2 lines, if more then you can <a href="
+"\"https://kairaweb.com/documentation/add-custom-css-to-"
+"align-the-woocommerce-titles/\" target=\"_blank\">add CSS "
+"to align the titles</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:2466
+msgid "Products Full Width on Mobile"
+msgstr ""
+
+#: customizer/customizer-options.php:2475
+msgid ""
+"<span><b>Guten Premium Features:</b><br />- Set Shop & "
+"Product pages to Left Sidebar<br />- Set Shop & Product "
+"pages to Full Width<br />- Add Floating Sidebar to Shop "
+"Full Width layouts</span>"
+msgstr ""
+
+#: customizer/customizer-options.php:2482
+msgid "Product Single Page (Guten)"
+msgstr ""
+
+#: customizer/customizer-options.php:2489
+msgid "Remove Breadcrumbs"
+msgstr ""
+
+#: customizer/customizer-options.php:2496
+msgid "Remove Product SKU"
+msgstr ""
+
+#: customizer/customizer-options.php:2503
+msgid "Product Single Page Column Width"
+msgstr ""
+
+#: customizer/customizer-options.php:2511
+msgid "Set the width of the Product Single Page Columns"
+msgstr ""
+
+#: customizer/customizer-options.php:2518
+msgid ""
+"<span><b>Guten Premium Features:</b><br />- Remove Related "
+"Products<br />- Change Product Tabs - Side/Horizontal/Link "
+"Tabs</span>"
+msgstr ""
+
+#: functions.php:75
+msgid "Top Bar Menu"
+msgstr ""
+
+#: functions.php:76
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:77
+msgid "Footer Bar Menu"
+msgstr ""
+
+#: functions.php:123
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:132
+msgid "Guten Footer Standard"
+msgstr ""
+
+#: functions.php:135
+msgid ""
+"The footer will divide into however many widgets are "
+"placed here."
+msgstr ""
+
+#: functions.php:139
+msgid "Guten Footer Custom 1"
+msgstr ""
+
+#: functions.php:144
+msgid "Guten Footer Custom 2"
+msgstr ""
+
+#: functions.php:149
+msgid "Guten Footer Custom 3"
+msgstr ""
+
+#: functions.php:154
+msgid "Guten Footer Custom 4"
+msgstr ""
+
+#: functions.php:159
+msgid "Guten Footer Custom 5"
+msgstr ""
+
+#: functions.php:433
+msgid "Contact Form by WPForms"
+msgstr ""
+
+#: functions.php:438
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: functions.php:449
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: functions.php:454
+msgid "Meta Slider"
+msgstr ""
+
+#: header.php:32
+msgid "Skip to content"
+msgstr ""
+
+#: includes/guten-pro/class-customize.php:76
+msgid "Guten Premium"
+msgstr ""
+
+#: includes/guten-pro/class-customize.php:77
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:386
+#: includes/inc/class-tgm-plugin-activation.php:827
+#: includes/inc/class-tgm-plugin-activation.php:2533
+#: includes/inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:387
+#: includes/inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:388
+#: includes/inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural ""
+"The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for "
+"this theme. Please update the plugin."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid ""
+"All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to "
+"install, update or activate."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:397
+msgid ""
+"Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:522
+msgid ""
+"This plugin needs to be updated to be compatible with your "
+"theme."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with "
+"the desired slug and renaming did not work."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:934
+#: includes/inc/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package "
+"their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, "
+"but the files are not packaged in a folder."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:1121
+#: includes/inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural ""
+"Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2757
+msgid ""
+"No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2759
+msgid ""
+"No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2800
+msgid ""
+"No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2908
+msgid ""
+"No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:2934
+msgid ""
+"No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid ""
+"An error occurred while installing %1$s: <strong>%2$s</"
+"strong>."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This "
+"process may take a while on some hosts, so please be "
+"patient."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3509
+#: includes/inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3509
+#: includes/inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3510
+msgid ""
+"All installations and activations have been completed."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may "
+"take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: includes/inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: includes/inc/template-tags.php:50
+#: includes/inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: includes/inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: includes/inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: includes/inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: includes/inc/template-tags.php:64
+msgid "1 Comment"
+msgstr ""
+
+#: includes/inc/template-tags.php:64
+msgid "% Comments"
+msgstr ""
+
+#: includes/inc/woocommerce-header-inc.php:7
+#: templates/header/guten-header-default.php:144
+#: templates/header/guten-header-eight.php:90
+#: templates/header/guten-header-five.php:106
+#: templates/header/guten-header-four.php:104
+#: templates/header/guten-header-nine.php:92
+#: templates/header/guten-header-one.php:69
+#: templates/header/guten-header-seven.php:132
+#: templates/header/guten-header-six.php:73
+#: templates/header/guten-header-three.php:98
+#: templates/header/guten-header-two.php:114
+msgid "View your shopping cart"
+msgstr ""
+
+#: includes/inc/woocommerce-header-inc.php:9
+#: templates/header/guten-header-default.php:146
+#: templates/header/guten-header-eight.php:92
+#: templates/header/guten-header-five.php:108
+#: templates/header/guten-header-four.php:106
+#: templates/header/guten-header-nine.php:94
+#: templates/header/guten-header-one.php:71
+#: templates/header/guten-header-seven.php:134
+#: templates/header/guten-header-six.php:75
+#: templates/header/guten-header-three.php:100
+#: templates/header/guten-header-two.php:116
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: searchform.php:9
+msgctxt "placeholder"
+msgid "Search &amp; hit enter&hellip;"
+msgstr ""
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "&nbsp;"
+msgstr ""
+
+#: templates/contents/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get "
+"started here</a>."
+msgstr ""
+
+#: templates/contents/content-page.php:26
+#: templates/contents/content-search.php:181
+#: templates/contents/content-single.php:29
+#: templates/contents/content.php:181
+msgid "Pages:"
+msgstr ""
+
+#: templates/contents/content-search.php:108
+#: templates/contents/content-search.php:174
+#: templates/contents/content.php:108
+#: templates/contents/content.php:174
+#, php-format
+msgid ""
+"Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: templates/footer/guten-footer-custom.php:92
+#: templates/footer/guten-footer-none.php:9
+#: templates/footer/guten-footer-standard.php:26
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: templates/footer/guten-footer-custom.php:92
+#: templates/footer/guten-footer-none.php:9
+#: templates/footer/guten-footer-social.php:147
+#: templates/footer/guten-footer-standard.php:26
+msgid "<a href=\"https://gutentheme.org/\">Guten</a>"
+msgstr ""
+
+#: templates/footer/guten-footer-custom.php:92
+#: templates/footer/guten-footer-none.php:9
+#: templates/footer/guten-footer-standard.php:26
+msgid "Kaira"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:12
+#: templates/social-links.php:3
+msgid "Send Us an Email"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:16
+#: templates/social-links.php:7
+msgid "Contact Us on Skype"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:20
+#: templates/social-links.php:11
+msgid "Find Us on Facebook"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:24
+#: templates/social-links.php:15
+msgid "Follow Us on Twitter"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:28
+#: templates/social-links.php:19
+msgid "Find Us on Google Plus"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:32
+#: templates/social-links.php:23
+msgid "Follow Us on SnapChat"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:36
+#: templates/social-links.php:27
+msgid "Find Us on Amazon"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:40
+#: templates/social-links.php:31
+msgid "Find Us on Etsy"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:44
+#: templates/social-links.php:35
+msgid "Find Us on Yelp"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:48
+#: templates/social-links.php:39
+msgid "View our YouTube Channel"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:52
+#: templates/social-links.php:43
+msgid "View our Vimeo Channel"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:56
+#: templates/social-links.php:47
+msgid "Follow Us on Instagram"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:60
+msgid "Find Us on Pinterest"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:64
+#: templates/social-links.php:55
+msgid "Find us on Medium"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:68
+#: templates/social-links.php:59
+msgid "Find us on Behance"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:72
+#: templates/social-links.php:63
+msgid "Find us on SoundCloud"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:76
+#: templates/social-links.php:67
+msgid "Find us on Product Hunt"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:80
+#: templates/social-links.php:71
+msgid "Find us on Slack"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:84
+#: templates/social-links.php:75
+msgid "Find Us on LinkedIn"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:88
+#: templates/social-links.php:79
+msgid "Find Us on Tumblr"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:92
+#: templates/social-links.php:83
+msgid "Find Us on Digg"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:96
+#: templates/social-links.php:87
+msgid "Find Us on Flickr"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:100
+#: templates/social-links.php:91
+msgid "Find our profile on Houzz"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:104
+#: templates/social-links.php:95
+msgid "Find Us on Vine"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:108
+#: templates/social-links.php:99
+msgid "Find Us on VK"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:112
+#: templates/social-links.php:103
+msgid "Find Us on Xing"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:116
+#: templates/social-links.php:107
+msgid "Find Us on StumbleUpon"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:120
+#: templates/social-links.php:111
+msgid "Find Us on TripAdvisor"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:124
+#: templates/social-links.php:115
+msgid "Find Us on GitHub"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:147
+#, php-format
+msgid ""
+"<div class=\"site-footer-social-copy\">Theme: %1$s by "
+"%2$s<div class=\"clearboth\"></div></div>"
+msgstr ""
+
+#: templates/footer/guten-footer-social.php:147
+msgid "Kaira</div>"
+msgstr ""
+
+#: templates/header/guten-header-default.php:132
+#: templates/header/guten-header-eight.php:118
+#: templates/header/guten-header-five.php:94
+#: templates/header/guten-header-four.php:92
+#: templates/header/guten-header-nine.php:80
+#: templates/header/guten-header-one.php:59
+#: templates/header/guten-header-seven.php:120
+#: templates/header/guten-header-six.php:63
+#: templates/header/guten-header-three.php:126
+#: templates/header/guten-header-two.php:98
+msgid "Primary Menu "
+msgstr ""
+
+#: templates/slider/homepage-slider.php:150
+msgid "See how to"
+msgstr ""
+
+#: templates/slider/homepage-slider.php:150
+msgid "Add your own slides here"
+msgstr ""
+
+#: templates/slider/homepage-slider.php:174
+msgid "A Winner is a Dreamer who never gives up!"
+msgstr ""
+
+#: templates/slider/homepage-slider.php:177
+msgid "It always seems impossible... Until it's done."
+msgstr ""
+
+#: templates/social-links.php:51
+msgid "Pin Us on Pinterest"
+msgstr ""
+
+#: templates/titlebar.php:37
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:4 upgrade/upgrade.php:13
+msgid "About Guten"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:13
+msgid "<span>Guten Premium </span><em>$39</em>"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:18
+#, php-format
+msgid ""
+"<strong>All settings for Guten</strong> are neatly built "
+"into the <a href=\"%s\">WordPress Customizer</a> so you "
+"can change and edit settings to view what happens before "
+"saving and making any of the changes live"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:21
+#, php-format
+msgid ""
+"Help on how to <strong><a href=\"%s\" target=\"_blank"
+"\">install the premium theme</a></strong>"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:30
+msgid "Page Layouts"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:31
+msgid ""
+"Guten Premium offers a bunch on Elementor Page layouts "
+"built into the theme<br />so you can simply import page "
+"layouts to use."
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:38
+msgid ""
+"Guten Premium is now on special for <i>$48</i> $39 once off"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:43
+msgid "View Our Recommended Resources"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:44
+#, php-format
+msgid ""
+"We have a bunch of <a href=\"%s\" target=\"_blank\">Useful "
+"Recommendations</a> to try out."
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:48
+msgid "Recommended Resources"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:55
+msgid ""
+"View the Guten Premium Demo, and try out all the settings "
+"neatly built into the Customizer"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:59
+msgid "Guten Premium Demo"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:66
+msgid "Download a working Child Theme for Guten"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:67
+#, php-format
+msgid ""
+"Or learn more on creating/editing a <a href=\"%s\" target="
+"\"_blank\">Child Theme</a>"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:71
+msgid "Guten Child Theme"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:78
+msgid ""
+"We have on-growing documentation on setting up your "
+"website with the Guten theme"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:82
+msgid "Documentation"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:89
+msgid "Contact us for support on using the Guten theme"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:90
+msgid ""
+"<span><b>Note:</b> Premium theme gets prioritized "
+"support<span>"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:94
+msgid "Get Support"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:99
+#, php-format
+msgid ""
+"Theme: Guten, built by <a href=\"%s\" target=\"_blank"
+"\">Kaira</a>"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:108
+msgid ""
+"We aim to keep our price cheaper than other theme "
+"companies, while still offering you the best WordPress "
+"theme."
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:110
+msgid ""
+"Upgrading will support us and enable us to keep building "
+"WordPress themes."
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:112
+#, php-format
+msgid ""
+"If you like our themes and/or found our support helpful, "
+"please let us know by <a href='%s' target='_blank'>giving "
+"us a review</a>."
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:116
+msgid "Theme Ratings"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:128
+msgid "Adrigrove"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:131
+msgid ""
+"By far the most beautiful and customizable free theme "
+"available.<br /><br />The support has been extremely quick "
+"and professional. Highly recommended!"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:137
+msgid "Karmawordz"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:140
+msgid ""
+"The theme just works. It is stable, reliable and amazing. "
+"I had a few questions and Zack answered them almost "
+"instantly. Great attitude and an amazing theme. You can't "
+"go wrong.<br /><br />This is one of the best woocommerce "
+"themes I have ever used!"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:146
+msgid "PixieLauren"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:149
+msgid ""
+"This theme is so pretty. It's customizable, it's fast, and "
+"even the free version offers lots of options to get the "
+"look you want for your site.<br /><br />I bought the "
+"premium version because I did want some of the premium "
+"features - it's really affordable for such a great theme. "
+"Love it!"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:155
+msgid "AllisonMandel"
+msgstr ""
+
+#: upgrade/tpl/upgrade-page.php:158
+msgid ""
+"This theme has a clean design with many options for "
+"customization. Flexibility is key, especially with an "
+"online store.<br /><br />Plus, when I had a question with "
+"formatting, Zack responded very quickly. His support was "
+"helpful and friendly. I'm happy I chose this theme and I "
+"would definitely recommend it to other users."
+msgstr ""

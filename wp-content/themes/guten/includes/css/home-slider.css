@@ -1,0 +1,195 @@
+/*--------------------------------------------------------------
+# Guten - Default Home Slider Styling
+--------------------------------------------------------------*/
+.home-slider-empty {
+    height: 106px;
+    margin: 0 0 60px;
+}
+.content-boxed .home-slider-wrap {
+    margin: 0;
+}
+.home-slider-wrap {
+    position: relative;
+    margin: 0 0 60px;
+    overflow: hidden;
+}
+.home-slider-wrap-hint {
+    position: absolute;
+    width: 220px;
+    bottom: 15px;
+    left: 50%;
+    margin: 0 0 0 -110px;
+    padding: 3px 0 4px;
+    text-align: center;
+    z-index: 9;
+    font-size: 11px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease 0s;
+    -moz-transition: opacity 0.3s ease 0s;
+    -ms-transition: opacity 0.3s ease 0s;
+    -o-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+}
+.home-slider-wrap-hint a {
+    font-size: 12px;
+}
+.home-slider-wrap .site-container {
+    position: relative;
+}
+.boxed-site .home-slider-wrap .site-container {
+    padding: 0;
+}
+.home-slider-remove {
+    height: 403px !important;
+    overflow: hidden;
+    background-image: url(../../images/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.home-slider-remove .home-slider {
+    visibility: hidden;
+}
+.home-slider-block {
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+.home-slider-block-inner {
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    color: inherit;
+    text-align: center;
+}
+.home-slider-block-bg {
+    background-color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    padding: 30px;
+    color: rgba(14, 14, 14, 0.8);
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.6);
+}
+.home-slider-title {
+    color: inherit;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 0 0 8px;
+    padding: 0;
+}
+.home-slider-title a {
+    color: #fff;
+}
+.home-slider-block-inner p {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.home-slider img {
+    display: block;
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+}
+.home-slider-pager {
+    bottom: 0;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.home-slider-pager a.selected span {
+    background-color: #ffffff;
+    position: relative;
+}
+.home-slider-pager a {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 2px;
+}
+.home-slider-pager span {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    display: inline-block;
+    height: 12px;
+    line-height: 0;
+    overflow: hidden;
+    text-indent: -100px;
+    width: 12px;
+}
+
+.home-slider-prev,
+.home-slider-next {
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    color: #FFFFFF;
+    line-height: 40px;
+    margin: -33px 0 0;
+    padding: 10px;
+    box-shadow: 0 0 0 1px #FFF inset;
+    border: 0;
+    width: 60px;
+    text-align: center;
+    font-size: 50px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 9;
+    transform: scale(0.8);
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+.home-slider-prev {
+    left: 40px;
+}
+.home-slider-next {
+    right: 40px;
+}
+.home-slider-prev i,
+.home-slider-next i {
+    font-size: 0.8em;
+    position: relative;
+    top: -3px;
+}
+.home-slider-wrap:hover .home-slider-prev,
+.home-slider-wrap:hover .home-slider-next,
+.home-slider-wrap.focus .home-slider-prev,
+.home-slider-wrap.focus .home-slider-next {
+    opacity: 1;
+    transform: scale(1);
+}
+.home-slider-wrap:hover .home-slider-prev.disabled,
+.home-slider-wrap:hover .home-slider-next.disabled,
+.home-slider-wrap.focus .home-slider-prev.disabled,
+.home-slider-wrap.focus .home-slider-next.disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+.home-slider-prev:hover,
+.home-slider-next:hover,
+.home-slider-prev:focus,
+.home-slider-next:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.home-slider-remove .home-slider-prev,
+.home-slider-remove .home-slider-next {
+    display: none;
+}
+.home-slider-wrap:hover .home-slider-wrap-hint {
+    opacity: 1;
+}
+
+.guten-header-default .home-slider-block {
+    padding: 106px 0 0;
+}

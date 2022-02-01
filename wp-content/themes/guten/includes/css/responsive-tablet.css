@@ -1,0 +1,195 @@
+/*--------------------------------------------------------------
+# Guten - Responsive Tablet Styling
+--------------------------------------------------------------*/
+.entry-header h2 {
+    margin: 0 0 10px;
+}
+.breadcrumbs,
+.blog-break-blocks .entry-header .breadcrumbs {
+    position: relative;
+    top: 0;
+    right: auto;
+    margin: 0 0 10px;
+}
+.blog-blocks-wrap .blog-blocks-layout {
+    width: 50% !important;
+}
+
+body.page-template-template-floating-left-sidebar .widget-area,
+body.page-template-template-floating-right-sidebar .widget-area,
+body.post-template-template-floating-left-sidebar .widget-area,
+body.post-template-template-floating-right-sidebar .widget-area,
+body.blog.guten-blog-fl-sidebar .widget-area,
+body.archive.category.guten-blog-archives-fl-sidebar .widget-area,
+body.archive.tag.guten-blog-archives-fl-sidebar .widget-area,
+body.single.single-post.guten-blog-single-fl-sidebar .widget-area,
+body.search-results.guten-blog-search-fl-sidebar .widget-area,
+body.post-type-archive-product.woocommerce.guten-shop-full-width.guten-shop-fl-sidebar .widget-area,
+body.archive.woocommerce.guten-shop-archives-full-width.guten-shop-archives-fl-sidebar .widget-area,
+body.single-product.woocommerce.guten-shop-single-full-width.guten-shop-single-fl-sidebar .widget-area {
+    width: 360px;
+    left: -360px !important;
+}
+
+body.page-template-template-floating-left-sidebar.show-floating-sidebar .widget-area,
+body.page-template-template-floating-right-sidebar.show-floating-sidebar .widget-area,
+body.post-template-template-floating-left-sidebar.show-floating-sidebar .widget-area,
+body.post-template-template-floating-right-sidebar.show-floating-sidebar .widget-area,
+body.blog.guten-blog-fl-sidebar.show-floating-sidebar .widget-area,
+body.archive.category.guten-blog-archives-fl-sidebar.show-floating-sidebar .widget-area,
+body.archive.tag.guten-blog-archives-fl-sidebar.show-floating-sidebar .widget-area,
+body.single.single-post.guten-blog-single-fl-sidebar.show-floating-sidebar .widget-area,
+body.search-results.guten-blog-search-fl-sidebar.show-floating-sidebar .widget-area,
+body.post-type-archive-product.woocommerce.guten-shop-full-width.guten-shop-fl-sidebar.show-floating-sidebar .widget-area,
+body.archive.woocommerce.guten-shop-archives-full-width.guten-shop-archives-fl-sidebar.show-floating-sidebar .widget-area,
+body.single-product.woocommerce.guten-shop-single-full-width.guten-shop-single-fl-sidebar.show-floating-sidebar .widget-area {
+    left: 0 !important;
+}
+
+.page-template-default .entry-content > *,
+.page-template-default .page-titlebar,
+.page-template-default .entry-header,
+.page-template-default .page-header,
+.page-template-default .post-thumbnail,
+.page-template-default #comments,
+.post-template-default .entry-content > *,
+.post-template-default .page-titlebar,
+.post-template-default .entry-header,
+.post-template-default .page-header,
+.post-template-default .post-thumbnail,
+.post-template-default #comments {
+    max-width: 60%;
+}
+.page-template-default .alignwide,
+.post-template-default .alignwide {
+    max-width: 80%;
+}
+.page-template-default .alignfull,
+.post-template-default .alignfull {
+    max-width: 100%;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout One & Two & Three
+----------------------------------------------*/
+.guten-header-one .site-title,
+.guten-header-two .site-title,
+.guten-header-three .site-title {
+    font-size: 56px;
+    line-height: 56px;
+    padding: 0 0 4px;
+}
+.guten-header-one .site-description,
+.guten-header-two .site-description {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Four & Five & Nine
+----------------------------------------------*/
+.guten-header-four .site-title,
+.guten-header-five .site-title,
+.guten-header-nine .site-title {
+    font-size: 56px;
+    line-height: 56px;
+}
+.guten-header-four .sticky-header.stuck .site-branding,
+.guten-header-five .sticky-header.stuck .site-branding,
+.guten-header-seven .sticky-header.stuck .site-branding,
+.guten-header-nine .sticky-header.stuck .site-branding {
+    padding: 10px 0 4px;
+}
+.guten-header-seven .site-header-top {
+    flex: 1;
+}
+.guten-header-seven .header-menu-button,
+.guten-header-nine .header-menu-button {
+    padding: 42px 15px 43px 15px;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Six
+----------------------------------------------*/
+.guten-header-six .site-branding {
+    display: inline-block;
+    box-shadow: none;
+    padding: 10px 0 15px;
+}
+.guten-header-six .site-title {
+    font-size: 56px;
+    line-height: 56px;
+    padding: 0 0 4px;
+}
+.guten-header-six .stick-header.stuck {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: auto !important;
+}
+.site-header-side-container {
+    width: auto;
+    padding: 0;
+    float: none;
+    margin: 0;
+}
+.site-side-layout-container {
+    margin-left: 0;
+}
+.site-side-layout-container .site-container {
+    max-width: 1240px;
+    padding: 0 20px;
+}
+.guten-header-six .site-top-bar-left {
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding: 0 0 0 5px;
+}
+.guten-header-six .site-top-bar-right {
+    float: right;
+    padding: 3px 15px 5px 0;
+}
+.guten-header-six .guten-header-nav ul li {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.guten-header-six .site-header-social {
+    text-align: center;
+}
+.guten-header-six .site-header-social .social-icon,
+.guten-header-six .menu-search {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+    margin: 0 2px;
+    box-shadow: none;
+}
+.guten-header-six .search-btn {
+    padding: 0;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Seven
+----------------------------------------------*/
+.site-header-switch .site-header-right {
+    flex: 2;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Eight
+----------------------------------------------*/
+.guten-header-eight .site-title {
+    font-size: 56px;
+    line-height: 56px;
+    padding: 0 0 4px;
+}
+.guten-header-eight .site-description {
+    font-size: 12px;
+    line-height: 14px;
+}
+.guten-header-eight .site-branding-right {
+    flex: 2;
+}

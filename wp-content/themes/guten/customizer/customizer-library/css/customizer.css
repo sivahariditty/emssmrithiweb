@@ -1,0 +1,211 @@
+#sub-accordion-section-title_tagline .description.customize-section-description,
+#sub-accordion-section-guten-site-layout-section-site .description.customize-section-description,
+#sub-accordion-section-guten-site-layout-section-header .description.customize-section-description,
+#sub-accordion-section-guten-site-layout-section-footer .description.customize-section-description,
+#sub-accordion-section-colors .description.customize-section-description,
+#sub-accordion-section-guten-typography-section .description.customize-section-description,
+#sub-accordion-section-guten-mobile-panel-section-breakpoints .description.customize-section-description,
+#sub-accordion-section-guten-panel-colors-section-footer .description.customize-section-description,
+#sub-accordion-section-guten-website-section-text-header .description.customize-section-description,
+#sub-accordion-section-guten-website-section-text-footer .description.customize-section-description,
+#sub-accordion-section-guten-panel-colors-section-nav .description.customize-section-description,
+#sub-accordion-section-guten-site-layout-section-slider .description.customize-section-description,
+#sub-accordion-section-guten-panel-colors-section-slider .description.customize-section-description,
+#sub-accordion-section-guten-mobile-panel-section-colors .description.customize-section-description,
+#sub-accordion-section-guten-panel-colors-section-header .description.customize-section-description {
+    background-color: #e2f1ff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 -12px 0 -10px;
+    padding: 10px;
+    font-size: 11px;
+    color: #444;
+}
+#customize-theme-controls #accordion-section-title_tagline .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-guten-panel-layout .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-guten-panel-font-settings .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-guten-panel-colors .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-guten-panel-text .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-guten-panel-social-settings .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-colors .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-guten-panel-mobile-settings .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-guten-plugin-support-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-woocommerce .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-guten-social-section .accordion-section-title:hover {
+    background-color: #006CC9;
+    color: #FFF;
+}
+#customize-theme-controls #accordion-section-title_tagline .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-guten-panel-layout .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-guten-panel-font-settings .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-guten-panel-colors .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-guten-panel-text .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-guten-panel-social-settings .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-section-colors .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-guten-panel-mobile-settings .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-section-guten-plugin-support-section .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-woocommerce .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-section-guten-social-section .accordion-section-title:hover:after {
+    color: #FFF !important;
+}
+.guten-remove-section {
+    display: none !important;
+}
+#accordion-section-guten-mobile-panel-section-breakpoints {
+    margin: 0 0 8px;
+}
+#accordion-section-guten-site-layout-section-woocommerce,
+#accordion-section-guten-mobile-panel-section-colors {
+    margin: 8px 0 0;
+}
+#customize-control-guten-menu-custom-breakat label {
+    font-size: 12px;
+    font-weight: 400;
+}
+#customize-controls .description {
+    font-size: 12px;
+    opacity: 0.8;
+}
+.kaira-help-txt {
+    font-size: 11px;
+    color: #969696;
+}
+.kaira-help-txt span {
+    display: block;
+    margin: 30px 0 0;
+}
+.kaira-help-txt b {
+    color: #006CC9;
+    margin: 5px 0 0;
+}
+#customize-control-guten-body-fonts-size .description,
+#customize-control-guten-heading-fonts-size .description {
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #000;
+}
+#customize-control-guten-body-fonts-size .description b,
+#customize-control-guten-heading-fonts-size .description b {
+    opacity: 0.35;
+    font-size: 16px;
+    font-weight: 200;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+#customize-control-guten-heading-fonts-size .description b {
+    margin: 0 9px;
+}
+#customize-control-guten-body-fonts-size input#_customize-input-guten-body-fonts-size,
+#customize-control-guten-heading-fonts-size input#_customize-input-guten-heading-fonts-size {
+    width: 255px;
+}
+
+#customize-control-blogdescription,
+#customize-control-guten-responsive-disable,
+#customize-control-guten-tablet-breakat,
+#customize-control-guten-mobile-breakat,
+#customize-control-guten-disable-google-font,
+#customize-control-guten-body-fonts-size,
+#customize-control-guten-heading-fonts-size,
+#customize-control-guten-page-title-font-color,
+#customize-control-guten-bloglist-title-color,
+#customize-control-guten-branding-bottom-pad,
+#customize-control-guten-logo-max-width,
+#customize-control-guten-site-title-font-color,
+#customize-control-guten-site-tagline-font-color,
+#customize-control-guten-remove-topborder,
+#customize-control-guten-site-layout,
+#customize-control-guten-set-sidebar-width,
+#customize-control-guten-set-container-width,
+#customize-control-guten-set-content-width,
+#customize-control-guten-site-break-footer-bottombar,
+#customize-control-guten-slider-type,
+#customize-control-guten-slider-cats,
+#customize-control-guten-slider-full-width,
+#customize-control-guten-slider-duration,
+#customize-control-guten-slider-linkto-post,
+#customize-control-guten-slider-remove-pagination,
+#customize-control-guten-slider-bg-color,
+#customize-control-guten-slider-pagi-color,
+#customize-control-guten-slider-text-bg-opacity,
+#customize-control-guten-remove-content-border,
+#customize-control-guten-page-fimage-layout,
+#customize-control-guten-page-fimage-fullwidth,
+#customize-control-guten-page-sidebar-blocks,
+#customize-control-guten-page-remove-titlebar,
+#customize-control-guten-page-widget-spacing,
+#customize-control-guten-header-nav-pos,
+#customize-control-guten-remove-cat-pre-title,
+#customize-control-guten-blog-break-blocks,
+#customize-control-guten-blog-layout,
+#customize-control-guten-blog-search-left-sidebar,
+#customize-control-guten-single-remove-cattags,
+#customize-control-guten-single-remove-meta-auth,
+#customize-control-guten-topbar-font-color,
+#customize-control-guten-navi-font-color,
+#customize-control-guten-footer-font-color,
+#customize-control-guten-website-head-no,
+#customize-control-guten-website-site-add,
+#customize-control-guten-website-error-msg,
+#customize-control-guten-footer-layout,
+#customize-control-guten-footer-side-fullwidth,
+#customize-control-guten-website-footer-txt,
+#customize-control-guten-remove-cats-count,
+#customize-control-guten-woocommerce-shop-single-leftsidebar,
+#customize-control-guten-woocommerce-products-per-page,
+#customize-control-guten-shop-floating-sidebar,
+#customize-control-guten-shop-archive-floating-sidebar,
+#customize-control-guten-align-product-titles,
+#customize-control-guten-remove-wc-page-titles,
+#customize-control-guten-onmobile-remove-topbar,
+#customize-control-guten-nav-onmobile-acc,
+#customize-control-guten-mobile-nav-bg-color,
+#customize-control-guten-mobile-nav-font-hover-color,
+#customize-control-guten-slider-mobile-set-height,
+#customize-control-guten-header-text-help,
+#customize-control-guten-footer-text-help,
+#customize-control-guten-social-custom-url {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0 0 20px;
+    margin-bottom: 15px;
+}
+#customize-control-blogname,
+#customize-control-custom_logo,
+#customize-control-guten-enable-bttb,
+#customize-control-guten-header-layout,
+#customize-control-guten-header-nav-style,
+#customize-control-guten-header-menu-text,
+#customize-control-guten-header-add-drop-cart,
+#customize-control-guten-header-search,
+#customize-control-guten-header-remove-no,
+#customize-control-guten-header-cart-bg-color,
+#customize-control-guten-header-px,
+#customize-control-guten-wc-product-title-size,
+#customize-control-guten-set-wc-single-col-width,
+#customize-control-guten-slides-id,
+#customize-control-guten-meta-slider-shortcode,
+#customize-control-guten-primary-color,
+#customize-control-guten-navi-selected-color,
+#customize-control-guten-blog-cats,
+#customize-control-guten-article-content-display,
+#customize-control-guten-blog-left-sidebar,
+#customize-control-guten-single-remove-meta-date,
+#customize-control-guten-page-content-br,
+#customize-control-guten-single-remove-meta,
+#customize-control-guten-footer-custom-cols,
+#customize-control-guten-footer-widget-title-size,
+#customize-control-guten-footer-px,
+#customize-control-guten-footer-top-pad,
+#customize-control-guten-footer-bottombar-top-pad,
+#customize-control-guten-footer-social-icon-size,
+#customize-control-guten-social-icon-help,
+#customize-control-guten-social-icon-help-nobrand {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 20px 0 0;
+    margin-top: 12px;
+}
+#customize-control-guten-social-icon-help,
+#customize-control-guten-social-icon-help-nobrand {
+    border-top: 3px solid rgba(0, 0, 0, 0.12);
+}

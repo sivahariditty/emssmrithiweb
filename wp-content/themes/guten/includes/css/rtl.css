@@ -1,0 +1,139 @@
+/*--------------------------------------------------------------
+# Guten - Extra styling for RTL support
+--------------------------------------------------------------*/
+body.rtl .header-menu-button span {
+    margin: 0 6px 0 0;
+}
+/* -------- Header Two -------- */
+body.rtl .site-header-top-left {
+    float: right;
+}
+/* -------- Header Six | Side Layout -------- */
+body.rtl .site-header-side-container {
+    padding: 0 0 0 60px;
+    float: right;
+}
+body.rtl .site-side-layout-container {
+    margin-left: 0;
+    margin-right: 380px;
+}
+body.rtl .guten-header-six .site-header-social .social-icon {
+    float: left;
+}
+body.rtl .guten-header-six .site-header-social button.menu-search {
+    float: left;
+}
+.show-site-search .guten-header-six .search-block {
+    left: -222px;
+}
+
+/* -------- Header Seven -------- */
+body.rtl .guten-header-seven .site-branding-float-all .custom-logo-link,
+body.rtl .guten-header-seven .site-branding-float {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* -------- Header Eight -------- */
+body.rtl .guten-header-eight .site-branding {
+    text-align: right;
+}
+body.rtl .guten-header-eight .site-branding-right {
+    text-align: left;
+}
+body.rtl .guten-header-eight .site-branding-float-all .custom-logo-link,
+body.rtl .guten-header-eight .site-branding-float {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+body.rtl .guten-header-eight .search-block {
+    padding-left: 0;
+}
+body.rtl .guten-header-eight .search-block .search-field,
+body.rtl .guten-header-eight .search-block .product-search input[type="text"].product-search-field,
+body.rtl .guten-header-eight .aws-container .aws-search-field {
+    margin-left: 0;
+}
+
+/* -------- Header Nine -------- */
+body.rtl .guten-header-nine .site-header-right,
+body.rtl .guten-header-nine .site-header-switch .site-header-top {
+    text-align: left;
+}
+body.rtl .guten-header-nine .site-branding-float-all .custom-logo-link,
+body.rtl .guten-header-nine .site-branding-float {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* -------- Title Bar -------- */
+body.rtl .site-main > .page-titlebar .page-titlebar-h,
+body.rtl .page-titlebar.guten-page-titlebar-banner .page-titlebar-h,
+body.rtl header.woocommerce-products-header {
+    float: right;
+}
+body.rtl .breadcrumbs,
+body.rtl .woocommerce-breadcrumb {
+    float: left;
+}
+body.rtl .breadcrumbs span,
+body.rtl .breadcrumbs a,
+body.rtl.woocommerce .woocommerce-breadcrumb a {
+    display: inline-block;
+}
+
+/* -------- Sidebar Widgets & Footer -------- */
+body.rtl .widget-title-style-sideline-short .widget-area .widget-title {
+    padding: 0 18px 18px 0;
+}
+body.rtl .widget-title-style-sideline-short .widget-area .widget-title:after {
+    left: auto;
+    right: 0;
+}
+body.rtl .footer-title-style-sideline-short .site-footer-widgets .widget-title {
+    padding: 0 18px 0 0;
+}
+body.rtl .footer-title-style-sideline-short .site-footer-widgets .widget-title:after,
+body.rtl .widget-title-style-underline-short .widget-area .widget-title:after,
+body.rtl .footer-title-style-underline-short .site-footer-widgets .widget-title:after {
+    left: auto;
+    right: 0;
+}
+body.rtl .guten-centeralign-widget-title.widget-title-style-underline-short .widget-area .widget-title:after,
+body.rtl .guten-centeralign-widget-title.footer-title-style-underline-short .site-footer-widgets .widget-title:after {
+    left: 50%;
+    right: auto;
+}
+.footer-title-style-underline-short .site-footer-widgets .widget-title:after {
+    right: 0;
+    left: auto
+}
+
+body.rtl .scroll-to-top {
+    right: auto;
+    left: 20px;
+}
+
+/* -------- WooCommerce extra -------- */
+body.rtl.woocommerce .woocommerce-result-count {
+    text-align: left;
+}
+body.rtl.woocommerce ul.products li.product .onsale {
+    right: auto;
+}
+body.rtl.single-product.woocommerce span.onsale,
+body.rtl.single-product.woocommerce li.product span.onsale {
+    left: auto;
+    right: 0;
+}
+body.rtl.woocommerce .guten-wc-tabs-links div.product .woocommerce-tabs ul.tabs li {
+    margin: 0 0 0 10px;
+    padding: 0 0 0 13px;
+}
+body.rtl.woocommerce .guten-wc-tabs-links div.product .woocommerce-tabs ul.tabs li::after {
+    right: auto;
+    left: 0;
+}

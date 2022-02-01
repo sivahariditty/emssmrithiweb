@@ -1,0 +1,128 @@
+.tgm-custom-button {
+	padding: 0 0 5px;
+}
+.tgm-custom-button span {
+    font-size: 16px;
+    color: #000;
+}
+.tgm-custom-button a.tgm-custom-button {
+	display: inline-block;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset !important;
+    background-color: #006CC9;
+    color: #FFF !important;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 0 0 5px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+.tgm-custom-button a.tgm-custom-button:hover {
+	background-color: #0952A9;
+}
+.tgm-note {
+    font-size: 18px;
+    margin: 15px 0 20px;
+}
+
+span.premium-link {
+    color: #f18500;
+}
+
+.notice.guten-notice-layouts {
+    position: relative;
+}
+.notice.guten-notice-layouts p {
+    font-size: 16px;
+}
+.notice.guten-notice-layouts a.guten-noticemiss {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    font-size: 11px;
+}
+.notice.guten-notice-layouts i {
+    color: #006CC9;
+}
+
+/* ---- Category ID Column ---- */
+body.post-type-post.taxonomy-category .column-cat_id {
+	width: 40px !important;
+	font-size: 13px !important;
+}
+#guten-page-meta-box input.guten-slider-link {
+	width: 100%;
+    margin: 10px 0 0;
+    padding: 12px;
+    border-radius: 4px;
+}
+#guten-page-meta-box span.guten-span {
+    margin: 0 15px 0 0;
+    font-size: 11px;
+}
+#guten-page-meta-box input {
+    margin: 0 2px 0 0;
+}
+#guten-page-meta-box p.guten-desc {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 10px 0 15px;
+}
+
+/* ---- Show / Hide Widget areas ---- */
+body.guten-footer-standard.widgets-php #guten-site-footer-custom-1.widgets-sortables,
+body.guten-footer-standard.widgets-php #guten-site-footer-custom-2.widgets-sortables,
+body.guten-footer-standard.widgets-php #guten-site-footer-custom-3.widgets-sortables,
+body.guten-footer-standard.widgets-php #guten-site-footer-custom-4.widgets-sortables,
+body.guten-footer-standard.widgets-php #guten-site-footer-custom-5.widgets-sortables,
+body.guten-footer-standard.widgets-php #guten-site-footer-social,
+
+body.guten-footer-social.widgets-php #guten-site-footer-custom-1.widgets-sortables,
+body.guten-footer-social.widgets-php #guten-site-footer-custom-2.widgets-sortables,
+body.guten-footer-social.widgets-php #guten-site-footer-custom-3.widgets-sortables,
+body.guten-footer-social.widgets-php #guten-site-footer-custom-4.widgets-sortables,
+body.guten-footer-social.widgets-php #guten-site-footer-custom-5.widgets-sortables,
+body.guten-footer-social.widgets-php #guten-site-footer-standard,
+
+body.guten-footer-custom.guten-footer-custom-cols-1.widgets-php #guten-site-footer-custom-2.widgets-sortables,
+body.guten-footer-custom.guten-footer-custom-cols-1.widgets-php #guten-site-footer-custom-3.widgets-sortables,
+body.guten-footer-custom.guten-footer-custom-cols-1.widgets-php #guten-site-footer-custom-4.widgets-sortables,
+body.guten-footer-custom.guten-footer-custom-cols-1.widgets-php #guten-site-footer-custom-5.widgets-sortables,
+
+body.guten-footer-custom.guten-footer-custom-cols-2.widgets-php #guten-site-footer-custom-3.widgets-sortables,
+body.guten-footer-custom.guten-footer-custom-cols-2.widgets-php #guten-site-footer-custom-4.widgets-sortables,
+body.guten-footer-custom.guten-footer-custom-cols-2.widgets-php #guten-site-footer-custom-5.widgets-sortables,
+
+body.guten-footer-custom.guten-footer-custom-cols-3.widgets-php #guten-site-footer-custom-4.widgets-sortables,
+body.guten-footer-custom.guten-footer-custom-cols-3.widgets-php #guten-site-footer-custom-5.widgets-sortables,
+
+body.guten-footer-custom.guten-footer-custom-cols-4.widgets-php #guten-site-footer-custom-5.widgets-sortables,
+body.guten-footer-custom.widgets-php #guten-site-footer-standard,
+
+body.guten-footer-none.widgets-php #guten-site-footer-custom-1.widgets-sortables,
+body.guten-footer-none.widgets-php #guten-site-footer-custom-2.widgets-sortables,
+body.guten-footer-none.widgets-php #guten-site-footer-custom-3.widgets-sortables,
+body.guten-footer-none.widgets-php #guten-site-footer-custom-4.widgets-sortables,
+body.guten-footer-none.widgets-php #guten-site-footer-custom-5.widgets-sortables,
+body.guten-footer-none.widgets-php #guten-site-footer-standard,
+body.guten-footer-none.widgets-php #guten-site-footer-social {
+	display: none !important;
+}
+
+body.widgets-php .widgets-holder-wrap {
+	box-shadow: none;
+	border: 0;
+}
+
+body.widgets-php #sidebar-1,
+body.guten-footer-standard.widgets-php #guten-site-footer-standard,
+body.guten-footer-social.widgets-php #guten-site-footer-social,
+body.guten-footer-custom.widgets-php #guten-site-footer-custom-1,
+body.guten-footer-custom.widgets-php #guten-site-footer-custom-2,
+body.guten-footer-custom.widgets-php #guten-site-footer-custom-3,
+body.guten-footer-custom.widgets-php #guten-site-footer-custom-4,
+body.guten-footer-custom.widgets-php #guten-site-footer-custom-5 {
+	border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}

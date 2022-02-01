@@ -1,0 +1,1322 @@
+/*--------------------------------------------------------------
+# Guten - Responsive Mobile Styling
+--------------------------------------------------------------*/
+.page-template-default .content-area,
+.woocommerce #container,
+.woocommerce-page #container,
+.content-area {
+    width: 100% !important;
+    float: none !important;
+    margin: 0 0 30px !important;
+}
+.page-template-default .widget-area,
+.widget-area {
+    width: 100% !important;
+    float: none !important;
+}
+.page-template-template-left-sidebar-php .content-area,
+body.page-template-template-floating-left-sidebar .widget-area,
+body.post-template-template-floating-left-sidebar .widget-area {
+    width: 100% !important;
+    float: none !important;
+    margin: 0 0 30px !important;
+}
+.page-template-template-left-sidebar-php .widget-area,
+body.page-template-template-floating-right-sidebar .widget-area,
+body.post-template-template-floating-right-sidebar .widget-area {
+    width: 100% !important;
+    float: none !important;
+}
+body.page-template-template-floating-left-sidebar .widget-area,
+body.page-template-template-floating-right-sidebar .widget-area,
+body.post-template-template-floating-left-sidebar .widget-area,
+body.post-template-template-floating-right-sidebar .widget-area {
+    position: relative;
+    right: auto !important;
+    left: auto !important;
+    top: auto;
+}
+body.blog.guten-blog-fl-sidebar .widget-area,
+body.archive.category.guten-blog-archives-fl-sidebar .widget-area,
+body.archive.tag.guten-blog-archives-fl-sidebar .widget-area,
+body.single.single-post.guten-blog-single-fl-sidebar .widget-area,
+body.search-results.guten-blog-search-fl-sidebar .widget-area,
+body.post-type-archive-product.woocommerce.guten-shop-full-width.guten-shop-fl-sidebar .widget-area,
+body.archive.woocommerce.guten-shop-archives-full-width.guten-shop-archives-fl-sidebar .widget-area,
+body.single-product.woocommerce.guten-shop-single-full-width.guten-shop-single-fl-sidebar .widget-area {
+    position: relative;
+    top: 0;
+    left: 0 !important;
+}
+.floating-sidebar-control,
+.home-slider-empty {
+    display: none !important;
+}
+
+.blog-blocks-wrap .blog-blocks-layout {
+    width: 100% !important;
+}
+
+.blog-style-imgblock .blog-post-blocks-inner-a {
+    opacity: 1 !important;
+}
+
+/* ---- Header with uploaded logo ---- */
+.site-branding.site-branding-float-all {
+    text-align: center;
+    padding: 10px;
+}
+.site-branding.site-branding-float-all::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.site-branding.site-branding-float-all .custom-logo-link,
+.site-branding.site-branding-float-all .site-branding-block {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0 5px;
+    float: none;
+}
+
+/* ---- Blog ---- */
+.post-loop-thumbnail {
+    float: none !important;
+    width: 100% !important;
+    margin: 0 0 20px !important;
+}
+.post-loop-content {
+    float: none !important;
+    width: 100% !important;
+}
+
+/* ---- Footer ---- */
+.site-footer-bottom-bar-left {
+    float: none;
+    text-align: center;
+    padding: 12px 0 0;
+}
+.site-footer-bottom-bar-right {
+    float: none;
+    text-align: center;
+    padding: 5px 0 10px;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout One
+----------------------------------------------*/
+.site-top-bar.guten-header-one .site-container,
+.site-boxed .site-top-bar.guten-header-one .site-container {
+    padding: 0;
+}
+.guten-header-one .site-top-bar-left {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 0 0 4px;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-one .social-icon,
+.guten-header-one button.menu-search,
+.guten-header-one .site-topbar-right-no,
+.guten-header-one .guten-header-nav {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.guten-header-one .site-top-bar-right {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-one .guten-header-nav ul li:last-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-one.site-top-bar-switch .guten-header-nav ul li:last-child a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-one.site-top-bar-switch .guten-header-nav ul li:first-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-one .guten-header-nav ul li a {
+    padding: 6px 10px 7px !important;
+}
+.guten-header-one .search-block {
+    position: relative;
+    display: none;
+    top: 0 !important;
+    bottom: 0 !important;
+    right: 0;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+}
+.guten-header-one.site-header-switch .search-block {
+    left: 0;
+}
+.guten-header-one .search-block .search-field {
+    width: 100%;
+}
+.site-top-bar.guten-header-one .guten-header-nav {
+    float: none !important;
+    display: inline-block !important;
+}
+.show-site-search .guten-header-one .search-block {
+    display: block;
+}
+.guten-header-one .guten-header-nav ul ul {
+    top: 28px;
+}
+
+.guten-header-one .site-header-top .site-container,
+.content-boxed .site-boxed .site-header.guten-header-one.site-header-switch .site-container {
+    padding: 0;
+}
+.guten-header-one .site-header-top-left,
+.guten-header-one.site-header-switch .site-header-top-left {
+    float: none;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+}
+.guten-header-one .site-header-top-right,
+.guten-header-one.site-header-switch .site-header-top-right {
+    float: none;
+    display: inline-block;
+}
+.guten-header-one .header-menu-button,
+.guten-header-one.site-header-switch .header-menu-button,
+.content-boxed .site-header-switch.guten-header-one .header-menu-button {
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+.guten-header-one .site-header-top-right .social-icon,
+.guten-header-one.site-header-switch .site-header-top-right .social-icon {
+    margin: 0 1px 0 1px;
+    padding: 5px 7px;
+}
+.guten-header-one button.menu-search,
+.guten-header-one.site-header-switch button.menu-search {
+    float: none;
+    box-shadow: none;
+    margin: 0 0 1px;
+    padding: 3px 0 5px 2px;
+}
+
+body.admin-bar .guten-header-one #main-menu {
+    padding: 101px 20px 30px 20px;
+}
+body.admin-bar .guten-header-one .main-menu-close {
+    top: 59px;
+}
+body.admin-bar .guten-header-one .header-cart {
+    top: 63px;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Two
+----------------------------------------------*/
+.site-top-bar.guten-header-two .site-container {
+    padding: 0;
+}
+.guten-header-two .site-top-bar-left {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 0 0 4px;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-two .social-icon,
+.guten-header-two button.menu-search,
+.guten-header-two .site-topbar-right-no,
+.guten-header-two .guten-header-nav {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.guten-header-two.site-top-bar-switch .social-icon {
+    padding: 3px 10px 4px;
+}
+.guten-header-two .site-top-bar-right-extra-txt {
+    margin: 0 8px 0 0;
+}
+.guten-header-two button.menu-search {
+    padding: 0;
+    margin: 0 -3px 0 0;
+}
+.guten-header-two.site-top-bar-switch button.menu-search {
+    float: none;
+    padding: 0;
+}
+.guten-header-two .search-btn {
+    padding: 9px 10px;
+}
+.guten-header-two.site-top-bar-switch .search-btn {
+    padding: 7px 10px 8px;
+}
+.guten-header-two .site-top-bar-right {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-two .guten-header-nav ul li:last-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-two.site-top-bar-switch .guten-header-nav ul li:last-child a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-two.site-top-bar-switch .guten-header-nav ul li:first-child a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-two .guten-header-nav ul li a {
+    padding: 6px 10px 7px !important;
+}
+.guten-header-two .search-block {
+    position: relative;
+    display: none;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+}
+.guten-header-two.site-top-bar-switch .search-block {
+    left: 0;
+}
+.guten-header-two .search-block .search-field {
+    width: 100%;
+}
+.site-top-bar.guten-header-two .guten-header-nav {
+    float: none !important;
+    display: inline-block !important;
+}
+.show-site-search .guten-header-two .search-block {
+    display: block;
+}
+.guten-header-two .guten-header-nav ul ul {
+    top: 28px;
+}
+.guten-header-two .header-menu-button {
+    padding: 18px 100px 18px 15px;
+}
+body.admin-bar .guten-header-two #main-menu {
+    padding: 101px 20px 30px 20px;
+}
+body.admin-bar .guten-header-two .main-menu-close {
+    top: 59px;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Three
+----------------------------------------------*/
+.site-boxed .site-top-bar.guten-header-three .site-container,
+.site-header.guten-header-three .site-container,
+.site-boxed .site-header.guten-header-three .site-container,
+.site-top-bar.guten-header-three .site-container {
+    padding: 0;
+}
+.guten-header-three .site-top-bar-left {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 2px 0 0;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-three .social-icon,
+.guten-header-three button.menu-search,
+.guten-header-three .site-topbar-right-no,
+.guten-header-three .guten-header-nav {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.guten-header-three .site-top-bar-right-extra-txt {
+    margin: 0 8px 0 0;
+}
+.guten-header-three button.menu-search {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.guten-header-three.site-header-switch button.menu-search {
+    float: none;
+}
+.guten-header-three .search-btn {
+    padding: 2px 10px;
+}
+.guten-header-three a.header-cart-contents {
+    padding: 2px 9px;
+}
+.guten-header-three .site-top-bar-right {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-three .guten-header-nav ul li:last-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-three.site-top-bar-switch .guten-header-nav ul li:last-child a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-three.site-top-bar-switch .guten-header-nav ul li:first-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-three .guten-header-nav ul li a {
+    padding: 6px 10px 7px !important;
+}
+.guten-header-three .search-block {
+    position: relative;
+    display: none;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+}
+.guten-header-three.site-top-bar-switch .search-block{
+    left: 0;
+}
+.guten-header-three .search-block .search-field {
+    width: 100%;
+}
+.site-top-bar.guten-header-three .guten-header-nav {
+    float: none !important;
+    display: inline-block !important;
+}
+.show-site-search .guten-header-three .search-block {
+    display: block;
+}
+.guten-header-three .guten-header-nav ul ul {
+    top: 28px;
+}
+
+.guten-header-three .site-header-social {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 6px 0 0;
+    position: relative;
+    top: 0;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0;
+    text-align: center;
+}
+.guten-header-three .site-header-social .social-icon {
+    float: none;
+    font-size: 16px;
+    line-height: 16px;
+}
+.guten-header-three .site-header-search {
+    position: relative;
+    top: 0;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0;
+    padding: 0 0 2px;
+}
+.guten-header-three .header-cart {
+    font-size: 16px;
+}
+
+body.admin-bar .guten-header-three #main-menu {
+    padding: 101px 20px 30px 20px;
+}
+body.admin-bar .guten-header-three .main-menu-close {
+    top: 59px;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Four
+----------------------------------------------*/
+.site-top-bar.guten-header-four .site-container,
+.site-boxed .site-top-bar.guten-header-four .site-container {
+    padding: 0;
+}
+.guten-header-four .site-top-bar-left {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 0 0 4px;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-four .social-icon,
+.guten-header-four button.menu-search,
+.guten-header-four .site-topbar-right-no,
+.guten-header-four .guten-header-nav {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.guten-header-four .site-top-bar-right-extra-txt {
+    margin: 0;
+    padding: 6px 8px 7px 10px;
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.guten-header-four.site-top-bar-switch .site-top-bar-right-extra-txt {
+    box-shadow: none;
+}
+.guten-header-four .site-top-bar-right {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-four .guten-header-nav ul li:last-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-four.site-top-bar-switch .guten-header-nav ul li:last-child a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-four.site-top-bar-switch .guten-header-nav ul li:first-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-four .guten-header-nav ul li a {
+    padding: 6px 10px 7px !important;
+}
+.guten-header-four .search-block {
+    position: relative;
+    display: none;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 9px;
+}
+.guten-header-four.site-top-bar-switch .search-block {
+    left: 0;
+}
+.guten-header-four button.menu-search {
+    padding: 0;
+    margin: 0 -3px 0 0;
+}
+.guten-header-four.site-top-bar-switch button.menu-search {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08), -1px 0 0 rgba(0, 0, 0, 0.08);
+    float: none;
+    padding: 0;
+}
+.guten-header-four .search-btn {
+    padding: 9px 10px;
+}
+.guten-header-four .search-block .search-field {
+    width: 100%;
+}
+.site-top-bar.guten-header-four .guten-header-nav {
+    float: none !important;
+    display: inline-block !important;
+}
+.show-site-search .guten-header-four .search-block {
+    display: block;
+}
+.guten-header-four .guten-header-nav ul ul {
+    top: 28px;
+}
+
+.guten-header-four .sticky-header.stuck .site-branding {
+    padding: 15px 0 20px;
+}
+.guten-header-four .sticky-header.stuck .site-title {
+    font-size: 56px;
+    line-height: 58px;
+}
+.guten-header-four .sticky-header.stuck .site-description {
+    display: block;
+}
+.guten-header-four .sticky-header.stick-header {
+    transition: unset;
+}
+
+body.admin-bar .guten-header-four #main-menu {
+    padding: 101px 20px 30px 20px;
+}
+body.admin-bar .guten-header-four .main-menu-close {
+    top: 59px;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Five
+----------------------------------------------*/
+.site-top-bar.guten-header-five .site-container {
+    padding: 0 !important;
+}
+.guten-header-five .site-top-bar-left {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 0 0 4px;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-five .social-icon,
+.guten-header-five button.menu-search,
+.guten-header-five .site-topbar-right-no,
+.guten-header-five .guten-header-nav {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.guten-header-five .site-top-bar-right-extra-txt {
+    margin: 0;
+    padding: 6px 8px 7px 10px;
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.guten-header-five.site-top-bar-switch .site-top-bar-right-extra-txt {
+    box-shadow: none;
+}
+.guten-header-five .site-top-bar-right {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-five .guten-header-nav ul li:last-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-five.site-top-bar-switch .guten-header-nav ul li:last-child a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-five.site-top-bar-switch .guten-header-nav ul li:first-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-five .guten-header-nav ul li a {
+    padding: 6px 10px 7px !important;
+}
+.guten-header-five .search-block {
+    position: relative;
+    display: none;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 9px;
+}
+.guten-header-five.site-top-bar-switch .search-block {
+    left: 0;
+}
+.guten-header-five button.menu-search {
+    padding: 0;
+    margin: 0 -3px 0 0;
+}
+.guten-header-five.site-top-bar-switch button.menu-search {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08), -1px 0 0 rgba(0, 0, 0, 0.08);
+    float: none;
+    padding: 0;
+}
+.guten-header-five .search-btn {
+    padding: 9px 10px;
+}
+.guten-header-five .search-block .search-field {
+    width: 100%;
+}
+.site-top-bar.guten-header-five .guten-header-nav {
+    float: none !important;
+    display: inline-block !important;
+}
+.show-site-search .guten-header-five .search-block {
+    display: block;
+}
+.guten-header-five .guten-header-nav ul ul {
+    top: 28px;
+}
+
+.guten-header-five .sticky-header.stuck .site-header-social {
+    float: none;
+    padding: 5px 0;
+}
+.guten-header-five .sticky-header.stuck .site-branding {
+    padding: 15px 0 20px;
+}
+.guten-header-five .sticky-header.stuck .site-title {
+    font-size: 56px;
+    line-height: 58px;
+}
+.guten-header-five .sticky-header.stuck .site-description {
+    display: block;
+}
+.guten-header-five .sticky-header.stick-header {
+    transition: unset;
+}
+
+body.admin-bar .guten-header-five #main-menu {
+    padding: 101px 20px 30px 20px;
+}
+body.admin-bar .guten-header-five .main-menu-close {
+    top: 59px;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Six
+----------------------------------------------*/
+.guten-header-six .search-block {
+    position: relative;
+    display: none;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0;
+    right: 0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) inset;
+}
+.guten-header-six .search-block .search-field {
+    width: 100%;
+}
+.guten-header-six .guten-header-nav {
+    float: none;
+}
+.show-site-search .guten-header-six .search-block {
+    left: 0 !important;
+    display: block;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Default
+----------------------------------------------*/
+.site-header.guten-header-default {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+.site-top-bar.guten-header-default .site-container {
+    padding: 0;
+}
+.guten-header-default .site-top-bar-left {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 0 0 4px;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-default .social-icon,
+.guten-header-default button.menu-search,
+.guten-header-default .site-topbar-right-no,
+.guten-header-default .guten-header-nav {
+    display: inline-block;
+    vertical-align: middle;
+    float: none !important;
+}
+.guten-header-default .site-top-bar-right-extra-txt {
+    margin: 0;
+    padding: 6px 8px 7px 10px;
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.guten-header-default .site-top-bar-right {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-default .guten-header-nav ul li:last-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-default.site-top-bar-switch .guten-header-nav ul li:last-child a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-default.site-top-bar-switch .guten-header-nav ul li:first-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-default .guten-header-nav ul li a {
+    padding: 6px 10px 7px !important;
+}
+.guten-header-default .search-block {
+    position: relative;
+    display: none;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 9px;
+}
+.guten-header-default.site-top-bar-switch .search-block {
+    left: 0;
+}
+.guten-header-default button.menu-search {
+    padding: 0;
+    margin: 0 -3px 0 0;
+}
+.guten-header-default.site-top-bar-switch button.menu-search {
+    float: none;
+}
+.guten-header-default .search-btn {
+    padding: 9px 10px;
+}
+.guten-header-default .search-block .search-field {
+    width: 100%;
+}
+.site-top-bar.guten-header-default .guten-header-nav {
+    float: none !important;
+    display: inline-block !important;
+}
+.show-site-search .guten-header-default .search-block {
+    display: block;
+}
+.guten-header-default .guten-header-nav ul ul {
+    top: 28px;
+}
+
+body.admin-bar .guten-header-default #main-menu {
+    padding: 101px 20px 30px 20px;
+}
+body.admin-bar .guten-header-default .main-menu-close {
+    top: 59px;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Seven
+----------------------------------------------*/
+.site-header.guten-header-seven {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+.site-top-bar.guten-header-seven .site-container {
+    padding: 0;
+}
+.guten-header-seven .site-top-bar-left {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 0 0 4px;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-seven .social-icon,
+.guten-header-seven button.menu-search,
+.guten-header-seven .site-topbar-right-no,
+.guten-header-seven .guten-header-nav {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.guten-header-seven .site-top-bar-right-extra-txt {
+    margin: 0;
+    padding: 6px 8px 7px 10px;
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.guten-header-seven .site-top-bar-right {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-seven .guten-header-nav ul li:last-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-seven.site-top-bar-switch .guten-header-nav ul li:last-child a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-seven.site-top-bar-switch .guten-header-nav ul li:first-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-seven .guten-header-nav ul li a {
+    padding: 6px 10px 7px !important;
+}
+.guten-header-seven .search-block {
+    position: relative;
+    display: none;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 9px;
+}
+.guten-header-seven.site-top-bar-switch .search-block {
+    left: 0;
+}
+.guten-header-seven button.menu-search {
+    padding: 0;
+    margin: 0 -3px 0 0;
+}
+.guten-header-seven.site-top-bar-switch button.menu-search {
+    float: none;
+}
+.guten-header-seven .search-btn {
+    padding: 9px 10px;
+}
+.guten-header-seven .search-block .search-field {
+    width: 100%;
+}
+.site-top-bar.guten-header-seven .guten-header-nav {
+    float: none !important;
+    display: inline-block !important;
+}
+.show-site-search .guten-header-seven .search-block {
+    display: block;
+}
+.guten-header-seven .guten-header-nav ul ul {
+    top: 28px;
+}
+
+body.admin-bar .guten-header-seven #main-menu {
+    padding: 101px 20px 30px 20px;
+}
+body.admin-bar .guten-header-seven .main-menu-close {
+    top: 59px;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Eight
+----------------------------------------------*/
+.site-top-bar.guten-header-eight .site-container {
+    padding: 0;
+}
+.guten-header-eight .site-top-bar-left {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 0 0 4px;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-eight .social-icon,
+.guten-header-eight button.menu-search,
+.guten-header-eight .site-topbar-right-no,
+.guten-header-eight .guten-header-nav {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.guten-header-eight.site-top-bar-switch .social-icon {
+    padding: 3px 10px 4px;
+}
+.guten-header-eight .site-top-bar-right-extra-txt {
+    margin: 0 8px 0 0;
+}
+.guten-header-eight button.menu-search {
+    padding: 0;
+    margin: 0 -3px 0 0;
+}
+.guten-header-eight.site-top-bar-switch button.menu-search {
+    float: none;
+    padding: 0;
+}
+.guten-header-eight .search-btn {
+    padding: 9px 10px;
+}
+.guten-header-eight.site-top-bar-switch .search-btn {
+    padding: 7px 10px 8px;
+}
+.guten-header-eight .site-top-bar-right {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-eight .guten-header-nav ul li:last-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-eight.site-top-bar-switch .guten-header-nav ul li:last-child a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-eight.site-top-bar-switch .guten-header-nav ul li:first-child a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-eight .guten-header-nav ul li a {
+    padding: 6px 10px 7px !important;
+}
+.guten-header-eight .search-block .search-field {
+    width: 100%;
+}
+.site-top-bar.guten-header-eight .guten-header-nav {
+    float: none !important;
+    display: inline-block !important;
+}
+.show-site-search .guten-header-eight .search-block {
+    display: block;
+}
+.guten-header-eight .guten-header-nav ul ul {
+    top: 28px;
+}
+
+body.admin-bar .guten-header-eight #main-menu {
+    padding: 101px 20px 30px 20px;
+}
+body.admin-bar .guten-header-eight .main-menu-close {
+    top: 59px;
+}
+
+/*--------------------------------------------
+# Guten - Header Layout Nine
+----------------------------------------------*/
+.site-top-bar.guten-header-nine .site-container,
+.site-boxed .site-top-bar.guten-header-nine .site-container {
+    padding: 0;
+}
+.guten-header-nine .site-top-bar-left {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 0 0 4px;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-nine .social-icon,
+.guten-header-nine button.menu-search,
+.guten-header-nine .site-topbar-right-no,
+.guten-header-nine .guten-header-nav {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.guten-header-nine .site-top-bar-right-extra-txt {
+    margin: 0;
+    padding: 6px 8px 7px 10px;
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.guten-header-nine.site-top-bar-switch .site-top-bar-right-extra-txt {
+    box-shadow: none;
+}
+.guten-header-nine .site-top-bar-right {
+    float: none !important;
+    width: 100%;
+    text-align: center !important;
+    min-height: 29px;
+}
+.site-top-bar.guten-header-nine .guten-header-nav ul li:last-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-nine.site-top-bar-switch .guten-header-nav ul li:last-child a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-nine.site-top-bar-switch .guten-header-nav ul li:first-child a {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08), 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar.guten-header-nine .guten-header-nav ul li a {
+    padding: 6px 10px 7px !important;
+}
+.site-top-bar.guten-header-nine .guten-header-nav {
+    float: none !important;
+    display: inline-block !important;
+}
+.guten-header-nine .guten-header-nav ul ul {
+    top: 28px;
+}
+.guten-header-nine .main-navigation {
+    display: block;
+    text-align: center;
+}
+.guten-header-nine .header-menu-button,
+.guten-header-nine.site-header-switch .header-menu-button {
+    width: 100%;
+    padding: 16px 10px 18px;
+}
+.guten-header-nine .sticky-header.stick-header {
+    transition: unset;
+}
+
+body.admin-bar .guten-header-nine #main-menu {
+    padding: 101px 20px 30px 20px;
+}
+body.admin-bar .guten-header-nine .main-menu-close {
+    top: 59px;
+}
+
+@media only screen and (max-width: 640px) {
+    .guten-template-gutenberg .entry-content > *,
+    .guten-template-gutenberg .page-titlebar,
+    .guten-template-gutenberg .entry-header,
+    .guten-template-gutenberg .page-header,
+    .guten-template-gutenberg .post-thumbnail,
+    .guten-template-gutenberg #comments,
+    .alignwide,
+    .guten-template-gutenberg .alignwide,
+    .alignfull,
+    .guten-template-gutenberg .alignfull {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .alignfull,
+    .guten-template-gutenberg .alignfull {
+        padding-left: 0;
+        padding-right: 0;
+    }
+	/*--------------------------------------------
+	# Guten - Header Layout Four
+	----------------------------------------------*/
+	.site-header.guten-header-four .site-container,
+    .site-boxed .site-header.guten-header-four .site-container {
+        padding: 0 !important;
+    }
+    .guten-header-four .search-block {
+        padding: 9px;
+    }
+    .guten-header-four .site-branding,
+    .guten-header-four.site-header-switch .site-branding {
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+        float: none;
+        text-align: center;
+    }
+    .guten-header-four .site-header-top,
+    .guten-header-four.site-header-switch .site-header-top {
+        float: none;
+        text-align: center;
+    }
+    .guten-header-four .main-navigation {
+        display: block;
+    }
+    .guten-header-four .header-menu-button,
+    .guten-header-four.site-header-switch .header-menu-button {
+        padding: 15px 10px 16px 10px;
+    }
+    .guten-header-four .header-cart {
+        position: absolute;
+        bottom: 7px;
+        right: 5px;
+    }
+    .guten-header-four a.header-cart-contents,
+    .guten-header-four.site-header-switch a.header-cart-contents {
+        padding: 8px 10px 8px;
+    }
+
+    /*--------------------------------------------
+	# Guten - Header Layout Five
+	----------------------------------------------*/
+	.site-header.guten-header-five .site-container {
+        padding: 0 !important;
+    }
+    .guten-header-five .search-block {
+        padding: 9px;
+    }
+    .guten-header-five .site-branding,
+    .guten-header-five.site-header-switch .site-branding {
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+        float: none;
+        text-align: center;
+    }
+    .guten-header-five .site-header-top,
+    .guten-header-five.site-header-switch .site-header-top {
+        float: none;
+        text-align: center;
+    }
+    .guten-header-five .main-navigation {
+        display: block;
+    }
+    .guten-header-five .header-menu-button,
+    .guten-header-five.site-header-switch .header-menu-button {
+        padding: 15px 10px 16px 10px;
+        width: 100%;
+    }
+    .guten-header-five .header-cart {
+        display: none;
+    }
+    .guten-header-five .site-header-social,
+    .guten-header-five.site-header-switch .site-header-social {
+        text-align: center;
+        padding: 5px 0;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    }
+    .guten-header-five a.social-icon {
+        font-size: 15px !important;
+        margin: 0 5px !important;
+    }
+
+    /*--------------------------------------------
+	# Guten - Header Layout Six
+	----------------------------------------------*/
+    .guten-header-six .site-top-bar-left {
+        float: none !important;
+        width: 100%;
+        text-align: center !important;
+        padding: 0 0 4px;
+        min-height: 29px;
+    }
+    .guten-header-six .site-top-bar-right {
+        float: none !important;
+        width: 100%;
+        text-align: center !important;
+        min-height: 29px;
+    }
+    .guten-header-six .guten-header-nav ul li {
+        margin: 0 0 -3px;
+    }
+    
+    body.admin-bar .guten-header-six #main-menu {
+        padding: 101px 20px 30px 20px;
+    }
+    body.admin-bar .guten-header-six .main-menu-close {
+        top: 59px;
+    }
+    body.admin-bar .guten-header-six .header-cart {
+        top: 63px;
+    }
+
+    /*--------------------------------------------
+	# Guten - Header Layout Default
+	----------------------------------------------*/
+    .site-header.guten-header-default .site-container {
+        padding: 0;
+    }
+    .guten-header-default .search-block {
+        padding: 9px;
+    }
+    .guten-header-default .site-branding {
+        padding: 15px 0 20px;
+    }
+    .guten-header-default .site-branding,
+    .guten-header-default.site-header-switch .site-branding {
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+        float: none;
+        text-align: center;
+    }
+    .guten-header-default .site-header-top,
+    .guten-header-default.site-header-switch .site-header-top {
+        float: none;
+        text-align: center;
+    }
+    .guten-header-default .main-navigation {
+        display: block;
+    }
+    .guten-header-default .header-menu-button,
+    .guten-header-default.site-header-switch .header-menu-button {
+        padding: 15px 10px 16px 10px;
+        display: block;
+        width: 100%;
+    }
+    .guten-header-default .header-cart {
+        display: none;
+    }
+    /*--------------------------------------------
+	# Guten - Header Layout Seven
+	----------------------------------------------*/
+    .site-header.guten-header-seven .site-container {
+        padding: 0;
+    }
+    .guten-header-seven .search-block {
+        padding: 9px;
+    }
+    .guten-header-seven .site-branding {
+        padding: 15px 0 20px;
+    }
+    .guten-header-seven .site-branding,
+    .guten-header-seven.site-header-switch .site-branding {
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+        float: none;
+        text-align: center;
+    }
+    .site-header-top.guten-header-seven,
+    .guten-header-seven.site-header-switch .site-header-top {
+        float: none;
+        text-align: center;
+    }
+    .guten-header-seven .main-navigation,
+    .guten-header-seven .header-menu-button {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .guten-header-seven .header-menu-button,
+    .guten-header-seven.site-header-switch .header-menu-button {
+        padding: 15px 10px 16px 10px;
+    }
+    .guten-header-seven .header-cart {
+        display: none;
+    }
+
+    /*--------------------------------------------
+	# Guten - Header Layout Eight
+    ----------------------------------------------*/
+    header.guten-header-eight > .site-container {
+        display: block;
+    }
+    .guten-header-eight .site-branding {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .guten-header-eight .site-branding-right {
+        text-align: center;
+        padding: 0 0 10px;
+    }
+    .guten-header-eight .site-header-top-left {
+        float: none;
+        text-align: center;
+    }
+    .guten-header-eight .search-block {
+        max-width: 160px;
+    }
+    .guten-header-eight .header-menu-button {
+        padding: 15px 15px 16px 15px;
+    }
+
+    /*--------------------------------------------
+    # Guten - Header Layout Nine
+    ----------------------------------------------*/
+    .guten-header-nine .site-inner-container {
+        display: block;
+    }
+    .guten-header-nine .site-branding {
+        text-align: center;
+        padding: 10px 0 0;
+    }
+    .guten-header-nine .search-block .search-field,
+    .guten-header-nine .search-block .product-search input[type="text"].product-search-field,
+    .guten-header-nine .aws-container .aws-search-field {
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 580px) {
+	/*--------------------------------------------
+	# Guten - Header Layout Two
+	----------------------------------------------*/
+    .guten-header-two .site-header-top .site-container {
+        padding: 0;
+    }
+    .guten-header-two .site-header-top-left {
+        float: none;
+        box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    }
+    .guten-header-two .site-header-top-right {
+        float: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .guten-header-two a.header-cart-contents {
+        padding: 8px 10px 8px;
+    }
+    .guten-header-two .site-header-top-right .social-icon {
+        margin: 0 1px 0 1px;
+        padding: 5px 7px;
+    }
+
+    /*--------------------------------------------
+	# Guten - Header Layout Three
+	----------------------------------------------*/
+	.guten-header-three .site-header-top .site-container {
+        padding: 0;
+    }
+    .guten-header-three .site-header-top-right {
+        float: none;
+        position: absolute;
+        bottom: 40px;
+        width: 100%;
+    }
+    .guten-header-three .header-menu-button {
+        padding: 15px 10px 16px 10px;
+    }
+    .guten-header-three .site-header-top-right .social-icon {
+        margin: 0 1px 0 1px;
+        padding: 5px 7px;
+    }
+
+    /*--------------------------------------------
+	# Guten - Header Layout Seven
+	----------------------------------------------*/
+    header.guten-header-seven .site-container {
+        display: block;
+    }
+    .guten-header-seven .site-header-right {
+        text-align: center;
+        align-content: initial;
+        padding: 0 0 10px;
+    }
+    .guten-header-seven .site-header-right .search-field {
+        width: 80%;
+    }
+
+}

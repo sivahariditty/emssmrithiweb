@@ -1,0 +1,82 @@
+/*--------------------------------------------------------------
+## Editor Styles for Gutenberg Blocks
+--------------------------------------------------------------*/
+.wp-block {
+    max-width: 900px;
+}
+.editor-post-title__block .editor-post-title__input,
+.wp-block-heading h1.editor-rich-text__tinymce,
+.wp-block-heading h2.editor-rich-text__tinymce,
+.wp-block-heading h3.editor-rich-text__tinymce,
+.wp-block-heading h4.editor-rich-text__tinymce,
+.wp-block-heading h5.editor-rich-text__tinymce,
+.wp-block-heading h6.editor-rich-text__tinymce {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+.editor-post-title__block .editor-post-title__input {
+    font-size: 28px;
+}
+.editor-styles-wrapper .wp-block,
+.editor-styles-wrapper .wp-block p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.editor-styles-wrapper .wp-block h1 {
+    font-size: 32px;
+    margin-bottom: .55em;
+    font-weight: 500;
+}
+
+.editor-styles-wrapper .wp-block h2 {
+    font-size: 28px;
+    margin-bottom: .65em;
+    font-weight: 500;
+}
+
+.editor-styles-wrapper .wp-block h3 {
+    font-size: 22px;
+    margin-bottom: .8em;
+    font-weight: 500;
+}
+
+.editor-styles-wrapper .wp-block h4 {
+    font-size: 20px;
+    margin-bottom: 1.1em;
+    font-weight: 500;
+}
+
+.editor-styles-wrapper .wp-block h5 {
+    font-size: 16px;
+    margin-bottom: 1.3em;
+    font-weight: 500;
+}
+
+.editor-styles-wrapper .wp-block h6 {
+    font-size: 14px;
+    margin-bottom: 1.4em;
+    font-weight: 500;
+}
+
+.wp-block-quote:not(.is-large),
+.wp-block-quote:not(.is-style-large) {
+    border-left: 2px solid #0073aa;
+    padding: 8px 0 8px 25px;
+    font-size: 1.3em;
+    opacity: 0.8;
+}
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large {
+    border: 0;
+    padding: 8px 15px;
+}
+.wp-block-quote.is-large p,
+.wp-block-quote.is-style-large p {
+    font-size: 1.5em;
+}
+.wp-block-quote:not(.is-large) cite,
+.wp-block-quote:not(.is-style-large) cite {
+    font-size: 0.8em;
+    opacity: 0.6;
+}

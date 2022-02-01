@@ -1,0 +1,1373 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Serenity Lite\n"
+"POT-Creation-Date: 2019-03-01 11:32-0500\n"
+"PO-Revision-Date: 2016-01-27 12:32-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Error 404 : Page not found!"
+msgstr ""
+
+#: 404.php:19
+msgid "The page you&rsquo;re trying to locate is missing or can&rsquo;t be found."
+msgstr ""
+
+#: archive.php:48 category.php:49 index.php:41 search.php:45 sections/blog.php:58
+#: single.php:27
+#, php-format
+msgid "By %1$s on %2$s"
+msgstr ""
+
+#: archive.php:56 category.php:57 index.php:49 search.php:53 sections/blog.php:66
+#: single.php:35
+#, php-format
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: archive.php:60 category.php:61 index.php:53 search.php:57 single.php:39
+msgid "&bull; Tags: "
+msgstr ""
+
+#: archive.php:82 category.php:83 index.php:75 search.php:79
+msgid "&nbsp;"
+msgstr ""
+
+#: comments.php:19 comments.php:40
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:21 comments.php:42
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:24 comments.php:45
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:66
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:67
+#, php-format
+msgid "Leave a comment to %s"
+msgstr ""
+
+#: comments.php:68
+msgid "Cancel Comment"
+msgstr ""
+
+#: comments.php:69 comments.php:78
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:70
+msgid "Comment"
+msgstr ""
+
+#: comments.php:72
+msgid "Name"
+msgstr ""
+
+#: comments.php:73
+msgid "Email"
+msgstr ""
+
+#: comments.php:74
+msgid "Website"
+msgstr ""
+
+#: footer.php:68
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:68
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: footer.php:72
+#, php-format
+msgid "Made by %s"
+msgstr ""
+
+#: header.php:52
+msgid "Toggle Navigation"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:327 inc/tgm-plugin-activation.php:65
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:328 inc/tgm-plugin-activation.php:66
+#: inc/welcome/getting-started.php:11
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:330 inc/tgm-plugin-activation.php:67
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:333 inc/tgm-plugin-activation.php:68
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:336 inc/tgm-plugin-activation.php:69
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:342 inc/tgm-plugin-activation.php:70
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:348 inc/tgm-plugin-activation.php:75
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure maximum "
+"compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:360 inc/tgm-plugin-activation.php:72
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:366 inc/tgm-plugin-activation.php:73
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:371 inc/tgm-plugin-activation.php:77
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:381 inc/tgm-plugin-activation.php:78
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:385 inc/tgm-plugin-activation.php:79
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:386 inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533 inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:387 inc/class-tgm-plugin-activation.php:3159
+#: inc/tgm-plugin-activation.php:80
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:388 inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934 inc/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin according "
+"to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not "
+"packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1121 inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2717 inc/welcome/getting-started.php:7
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509 inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509 inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/customizer.php:9
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer.php:11
+msgid ""
+"This section controls the default header/hero section on the homepage of your "
+"website."
+msgstr ""
+
+#: inc/customizer.php:15 sections/hero.php:18
+msgid "MODERN. CLEAN. ELEGANT."
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "Big Title"
+msgstr ""
+
+#: inc/customizer.php:29 sections/hero.php:20
+msgid "Discover more posibilities for your success!"
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "Small Title"
+msgstr ""
+
+#: inc/customizer.php:43 sections/hero.php:38 sections/hero.php:42
+msgid "Learn More"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Button 1 Text"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Button 1 Link"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Disable Button 1"
+msgstr ""
+
+#: inc/customizer.php:75 inc/customizer.php:116
+msgid "Check the box to disable this button."
+msgstr ""
+
+#: inc/customizer.php:84 inc/customizer.php:381 sections/call-to-action.php:23
+#: sections/hero.php:48 sections/hero.php:52
+msgid "Download Now"
+msgstr ""
+
+#: inc/customizer.php:90
+msgid "Button 2 Text"
+msgstr ""
+
+#: inc/customizer.php:102
+msgid "Button 2 Link"
+msgstr ""
+
+#: inc/customizer.php:115
+msgid "Disable Button 2"
+msgstr ""
+
+#: inc/customizer.php:128
+msgid "One-Page Template Settings"
+msgstr ""
+
+#: inc/customizer.php:129
+msgid ""
+"Configure settings for each of the sections in the One-Page Template. For "
+"instructions on how to setup the One-Page Template go to <a href=\"themes.php?"
+"page=serenity-lite-welcome\">APPEARANCE > Setup Serenity Lite</a>."
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "About Section"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid "Configure settings for the About section in the One-Page template."
+msgstr ""
+
+#: inc/customizer.php:139 sections/about.php:16
+msgid "About"
+msgstr ""
+
+#: inc/customizer.php:145 inc/customizer.php:209 inc/customizer.php:286
+#: inc/customizer.php:474 inc/customizer.php:546 inc/customizer.php:633
+#: inc/customizer.php:719 inc/customizer.php:819 inc/customizer.php:892
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:153 inc/customizer.php:217 inc/customizer.php:294
+#: inc/customizer.php:482 inc/customizer.php:554 inc/customizer.php:641
+#: inc/customizer.php:727 inc/customizer.php:827 inc/customizer.php:900
+#: sections/about.php:18 sections/blog.php:19 sections/brands.php:19
+#: sections/features.php:19 sections/gallery.php:19 sections/services.php:19
+#: sections/team.php:19 sections/testimonials.php:19 sections/work.php:19
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+msgstr ""
+
+#: inc/customizer.php:159 inc/customizer.php:223 inc/customizer.php:300
+#: inc/customizer.php:488 inc/customizer.php:560 inc/customizer.php:647
+#: inc/customizer.php:733 inc/customizer.php:833 inc/customizer.php:906
+msgid "Subtitle"
+msgstr ""
+
+#: inc/customizer.php:172 inc/customizer.php:660 inc/customizer.php:746
+#: inc/customizer.php:919
+msgid "Content"
+msgstr ""
+
+#: inc/customizer.php:186 inc/customizer.php:264 inc/customizer.php:335
+#: inc/customizer.php:414 inc/customizer.php:451 inc/customizer.php:524
+#: inc/customizer.php:574 inc/customizer.php:611 inc/customizer.php:696
+#: inc/customizer.php:782 inc/customizer.php:869 inc/customizer.php:933
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer.php:187 inc/customizer.php:265 inc/customizer.php:336
+#: inc/customizer.php:415 inc/customizer.php:452 inc/customizer.php:525
+#: inc/customizer.php:575 inc/customizer.php:612 inc/customizer.php:697
+#: inc/customizer.php:783 inc/customizer.php:870 inc/customizer.php:934
+msgid "Check the box to disable this section."
+msgstr ""
+
+#: inc/customizer.php:196
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer.php:197
+msgid "Configure settings for the Blog section in the One-Page template."
+msgstr ""
+
+#: inc/customizer.php:203 sections/blog.php:17
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer.php:231 sections/blog.php:94
+msgid "Read the blog"
+msgstr ""
+
+#: inc/customizer.php:237 inc/customizer.php:387
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer.php:250 inc/customizer.php:400
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer.php:274
+msgid "Brands Section"
+msgstr ""
+
+#: inc/customizer.php:275
+msgid ""
+"This section uses Image Widgets to display brands. <a href=\"javascript:wp."
+"customize.section( 'sidebar-widgets-brands-widgets' ).focus();\">Add Image "
+"Widgets</a>."
+msgstr ""
+
+#: inc/customizer.php:280 sections/brands.php:17
+msgid "Brands"
+msgstr ""
+
+#: inc/customizer.php:314 inc/customizer.php:503 inc/customizer.php:675
+#: inc/customizer.php:761 inc/customizer.php:848
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:317
+msgid "Select the number of brand logos to display per row."
+msgstr ""
+
+#: inc/customizer.php:345
+msgid "Call to Action Section"
+msgstr ""
+
+#: inc/customizer.php:346
+msgid ""
+"This section uses a single Text Widget to display the Call-to-Action text. <a "
+"href=\"javascript:wp.customize.section( 'sidebar-widgets-cta-widgets' ).focus();"
+"\">Add a Text Widget</a>."
+msgstr ""
+
+#: inc/customizer.php:358
+msgid "Call-to-Action Section Background Color"
+msgstr ""
+
+#: inc/customizer.php:372
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer.php:424
+msgid "Contact Section"
+msgstr ""
+
+#: inc/customizer.php:425
+msgid ""
+"This section uses a Text Widget to display the contact information and a WPForms "
+"widget to display a form. <a href=\"javascript:wp.customize.section( 'sidebar-"
+"widgets-contact-form-widgets' ).focus();\">Add a WPForm Widget</a> and <a href="
+"\"javascript:wp.customize.section( 'sidebar-widgets-contact-info-widgets' )."
+"focus();\">add a Text Widget</a>."
+msgstr ""
+
+#: inc/customizer.php:437
+msgid "Contact Section Background Color"
+msgstr ""
+
+#: inc/customizer.php:461
+msgid "Features Section"
+msgstr ""
+
+#: inc/customizer.php:462
+msgid ""
+"This section uses Text Widgets to display features. <a href=\"javascript:wp."
+"customize.section( 'sidebar-widgets-feature-widgets' ).focus();\">Add Text "
+"Widgets</a>."
+msgstr ""
+
+#: inc/customizer.php:468 sections/features.php:17
+msgid "Our Features"
+msgstr ""
+
+#: inc/customizer.php:506
+msgid "Select the number of features to display per row."
+msgstr ""
+
+#: inc/customizer.php:534
+msgid "Gallery Section"
+msgstr ""
+
+#: inc/customizer.php:535
+msgid ""
+"This section uses Gallery Widgets to display photo galleries. <a href="
+"\"javascript:wp.customize.section( 'sidebar-widgets-gallery-widgets' ).focus();"
+"\">Add a Gallery Widget</a>."
+msgstr ""
+
+#: inc/customizer.php:540 sections/gallery.php:17
+msgid "Photo Gallery"
+msgstr ""
+
+#: inc/customizer.php:584
+msgid "Newsletter Section"
+msgstr ""
+
+#: inc/customizer.php:585
+msgid ""
+"This section uses a Text Widget to display the newsletter title & description and "
+"a MailChimp Widget to display a signup form. <a href=\"javascript:wp.customize."
+"section( 'sidebar-widgets-newsletter-intro-widgets' ).focus();\">Add a Text "
+"Widget</a> and <a href=\"javascript:wp.customize.section( 'sidebar-widgets-"
+"newsletter-form-widgets' ).focus();\">add a MailChimp Form Widget</a>."
+msgstr ""
+
+#: inc/customizer.php:597
+msgid "Newsletter Section Background Color"
+msgstr ""
+
+#: inc/customizer.php:621
+msgid "Services Section"
+msgstr ""
+
+#: inc/customizer.php:622
+msgid ""
+"This section uses Text Widgets to display services. <a href=\"javascript:wp."
+"customize.section( 'sidebar-widgets-service-widgets' ).focus();\">Add Text "
+"Widgets</a>."
+msgstr ""
+
+#: inc/customizer.php:627 sections/services.php:17
+msgid "Services"
+msgstr ""
+
+#: inc/customizer.php:678
+msgid "Select the number of services to display per row."
+msgstr ""
+
+#: inc/customizer.php:706
+msgid "Team Members Section"
+msgstr ""
+
+#: inc/customizer.php:707
+msgid ""
+"This section uses Text Widgets to display team members. <a href=\"javascript:wp."
+"customize.section( 'sidebar-widgets-team-widgets' ).focus();\">Add Text Widgets</"
+"a>."
+msgstr ""
+
+#: inc/customizer.php:713
+msgid "Team Members"
+msgstr ""
+
+#: inc/customizer.php:764
+msgid "Select the number of Team Members to display per row."
+msgstr ""
+
+#: inc/customizer.php:792
+msgid "Testimonials Section"
+msgstr ""
+
+#: inc/customizer.php:793
+msgid ""
+"This section uses Text Widgets to display client testimonials. <a href="
+"\"javascript:wp.customize.section( 'sidebar-widgets-testimonial-widgets' )."
+"focus();\">Add Text Widgets</a>."
+msgstr ""
+
+#: inc/customizer.php:805
+msgid "Testimonials Section Background Color"
+msgstr ""
+
+#: inc/customizer.php:813 sections/testimonials.php:17
+msgid "Testimonials"
+msgstr ""
+
+#: inc/customizer.php:851
+msgid "Select the number of Testimonials to display per row."
+msgstr ""
+
+#: inc/customizer.php:879
+msgid "Work Section"
+msgstr ""
+
+#: inc/customizer.php:880
+msgid "Configure settings for the Work section in the One-Page template."
+msgstr ""
+
+#: inc/customizer.php:886 sections/work.php:17
+msgid "Work"
+msgstr ""
+
+#: inc/customizer.php:943
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:945
+msgid "Configure settings for the site-wide footer."
+msgstr ""
+
+#: inc/customizer.php:956
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer.php:969
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/customizer.php:983 inc/customizer.php:1012 inc/customizer.php:1041
+#: inc/customizer.php:1070 inc/customizer.php:1099 inc/customizer.php:1128
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer.php:984
+msgid "Check the box to enable the Facebook icon."
+msgstr ""
+
+#: inc/customizer.php:998
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/customizer.php:1013
+msgid "Check the box to enable the Twitter icon."
+msgstr ""
+
+#: inc/customizer.php:1027
+msgid "Google Plus Link"
+msgstr ""
+
+#: inc/customizer.php:1042
+msgid "Check the box to enable the Google Plus icon."
+msgstr ""
+
+#: inc/customizer.php:1056
+msgid "Linkedin Link"
+msgstr ""
+
+#: inc/customizer.php:1071
+msgid "Check the box to enable the Linkedin icon."
+msgstr ""
+
+#: inc/customizer.php:1085
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/customizer.php:1100
+msgid "Check the box to enable the Instagram icon."
+msgstr ""
+
+#: inc/customizer.php:1114
+msgid "Pinterest Link"
+msgstr ""
+
+#: inc/customizer.php:1129
+msgid "Check the box to enable the Pinterest icon."
+msgstr ""
+
+#: inc/customizer.php:1144
+msgid "Disable Social Icons"
+msgstr ""
+
+#: inc/customizer.php:1145
+msgid "Check the box to disable all the social icons in the footer."
+msgstr ""
+
+#: inc/extras.php:16
+msgid "Read More"
+msgstr ""
+
+#: inc/setup.php:25
+msgid "Main Menu"
+msgstr ""
+
+#: inc/setup.php:26
+msgid "Social Menu"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:47 inc/welcome/getting-started.php:7
+msgid "Contact Form by WPForms"
+msgstr ""
+
+#: inc/tgm-plugin-activation.php:71
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:74
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:76
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation.php:81
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/welcome/child-themes.php:2 inc/welcome/theme-welcome.php:122
+msgid "Child Themes"
+msgstr ""
+
+#: inc/welcome/child-themes.php:3
+msgid ""
+"A child theme is a WordPress theme that inherits its functionality from another "
+"WordPress theme, the parent theme."
+msgstr ""
+
+#: inc/welcome/child-themes.php:4
+msgid ""
+"Child themes are often used when you want to customize or tweak an existing "
+"WordPress theme without losing the ability to upgrade that theme."
+msgstr ""
+
+#: inc/welcome/child-themes.php:12
+msgid "Serenity Lite Child Theme"
+msgstr ""
+
+#: inc/welcome/child-themes.php:14
+msgid "Download"
+msgstr ""
+
+#: inc/welcome/getting-started.php:4
+msgid ""
+"Follow the steps below to setup Serenity Lite and begin customizing your website."
+msgstr ""
+
+#: inc/welcome/getting-started.php:5
+msgid "Step 1 - Install Plugins"
+msgstr ""
+
+#: inc/welcome/getting-started.php:7
+msgid "plugin"
+msgstr ""
+
+#: inc/welcome/getting-started.php:16
+msgid "Step 2 - Configure One-Page Template"
+msgstr ""
+
+#: inc/welcome/getting-started.php:18
+msgid ""
+"Create or edit a page, and assign it the One-Page Template from the Page "
+"Attributes section."
+msgstr ""
+
+#: inc/welcome/getting-started.php:19
+msgid ""
+"Go to Settings > Reading and set \"Front page displays\" to \"A static page\"."
+msgstr ""
+
+#: inc/welcome/getting-started.php:20
+msgid ""
+"Select the page you just assigned the One-page Template to as \"Front page\" and "
+"then choose another page as \"Posts page\" to serve your blog posts."
+msgstr ""
+
+#: inc/welcome/getting-started.php:22
+msgid "Homepage Configuration Instructions (with video)"
+msgstr ""
+
+#: inc/welcome/getting-started.php:25
+msgid "Step 3 - Customize Your Website"
+msgstr ""
+
+#: inc/welcome/getting-started.php:26
+msgid ""
+"Click the button below to configure theme settings and start customizing your "
+"site."
+msgstr ""
+
+#: inc/welcome/getting-started.php:29
+msgid "Serenity Lite Customizer"
+msgstr ""
+
+#: inc/welcome/import-demo.php:2
+msgid "Import Demo Content"
+msgstr ""
+
+#: inc/welcome/import-demo.php:3
+msgid ""
+"Make your site look like our live demo; import all demo pages, posts and widgets."
+msgstr ""
+
+#: inc/welcome/import-demo.php:4
+msgid "Live demo:"
+msgstr ""
+
+#: inc/welcome/import-demo.php:5
+msgid "Import Demo Instructions"
+msgstr ""
+
+#: inc/welcome/theme-support.php:2 inc/welcome/theme-welcome.php:121
+msgid "Theme Support"
+msgstr ""
+
+#: inc/welcome/theme-support.php:3
+msgid ""
+"Need help? Support for Serenity Lite is conducted through our support ticket "
+"system."
+msgstr ""
+
+#: inc/welcome/theme-support.php:5
+msgid "Support Forum"
+msgstr ""
+
+#: inc/welcome/theme-support.php:6
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/welcome/theme-support.php:8
+msgid "Create a support ticket"
+msgstr ""
+
+#: inc/welcome/theme-support.php:9
+msgid "Tutorials"
+msgstr ""
+
+#: inc/welcome/theme-support.php:10
+msgid "Here is a list of helpful tutorials to get you started."
+msgstr ""
+
+#: inc/welcome/theme-support.php:12
+msgid "How to install & setup Serenity Lite"
+msgstr ""
+
+#: inc/welcome/theme-support.php:13
+msgid "How to setup the One-Page Template"
+msgstr ""
+
+#: inc/welcome/theme-welcome.php:35
+msgid "Setup Serenity Lite"
+msgstr ""
+
+#: inc/welcome/theme-welcome.php:79
+msgid "Welcome, Thank you for choosing Serenity Lite! "
+msgstr ""
+
+#: inc/welcome/theme-welcome.php:80
+msgid ""
+"Visit our welcome page to setup Serenity Lite and start customizing your site."
+msgstr ""
+
+#: inc/welcome/theme-welcome.php:82
+msgid "Setup Instructions"
+msgstr ""
+
+#: inc/welcome/theme-welcome.php:84
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/welcome/theme-welcome.php:111
+msgid "Welcome to Serenity Lite"
+msgstr ""
+
+#: inc/welcome/theme-welcome.php:111
+msgid "VERSION 0.5"
+msgstr ""
+
+#: inc/welcome/theme-welcome.php:113
+msgid ""
+"Serenity Lite is a clean, modern and elegant one-page theme designed for "
+"professionals and small businesses. Its strength lies in displaying all your "
+"content on a single page, is easily customizable and allows you to build a "
+"stunning website in minutes. Serenity Lite relies on powerful native WordPress "
+"widgets, pages and the Live Customizer. It’s responsive, search engine friendly "
+"and light-weight."
+msgstr ""
+
+#: inc/welcome/theme-welcome.php:115
+msgid "Visit Website"
+msgstr ""
+
+#: inc/welcome/theme-welcome.php:120
+msgid "Getting Started"
+msgstr ""
+
+#: inc/welcome/theme-welcome.php:123
+msgid "Import Demo"
+msgstr ""
+
+#: inc/widgets.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets.php:12
+msgid "Widgets in this area will be shown in the default sidebar."
+msgstr ""
+
+#: inc/widgets.php:20
+msgid "Hero Section"
+msgstr ""
+
+#: inc/widgets.php:22
+msgid ""
+"Widgets in this sidebar will appear in the Hero section. Drag and drop a Text "
+"Widget here to add a tagline or paragraph beneath the titles in the Hero section."
+msgstr ""
+
+#: inc/widgets.php:34
+msgid "One-Page Brands Section"
+msgstr ""
+
+#: inc/widgets.php:36
+msgid ""
+"The Brands section which appears in the One-Page Template. Drag and drop Image "
+"Widgets here to add brands."
+msgstr ""
+
+#: inc/widgets.php:48
+msgid "One-Page Call-to-Action Section"
+msgstr ""
+
+#: inc/widgets.php:50
+msgid ""
+"The Call-to-Action section which appears in the One-Page Template. Drag and drop "
+"Text Widgets here to add calls-to-action."
+msgstr ""
+
+#: inc/widgets.php:62
+msgid "One-Page Contact Form Section"
+msgstr ""
+
+#: inc/widgets.php:64
+msgid ""
+"The contact form area of the Contact section which appears in the One-Page "
+"Template. Drag and drop wpForms Widget here to add a contact form."
+msgstr ""
+
+#: inc/widgets.php:72
+msgid "One-Page Contact Info Section"
+msgstr ""
+
+#: inc/widgets.php:74
+msgid ""
+"The contact info area of the Contact section which appears in the One-Page "
+"Template. Drag and drop a Text Widget here to add your address, tel#, email, etc."
+msgstr ""
+
+#: inc/widgets.php:88
+msgid "One-Page Features Section"
+msgstr ""
+
+#: inc/widgets.php:90
+msgid ""
+"The Features section which appears in the One-Page Template. Drag and drop Text "
+"Widgets here to add features. Search <a target=\"_blank\" href=\"https://www."
+"flaticon.com/\">Flaticons.com</a> for free icons to use."
+msgstr ""
+
+#: inc/widgets.php:102
+msgid "One-Page Gallery Section"
+msgstr ""
+
+#: inc/widgets.php:104
+msgid ""
+"The Photo Gallery section which appears in the One-Page Template. Drag and drop "
+"the Gallery Widget here to add a photo gallery."
+msgstr ""
+
+#: inc/widgets.php:116
+msgid "One-Page Newsletter Intro Section"
+msgstr ""
+
+#: inc/widgets.php:118
+msgid ""
+"The introduction area of the Newsletter section which appears in the One-Page "
+"Template. Drag and drop a Text Widget here to add an introduction."
+msgstr ""
+
+#: inc/widgets.php:126
+msgid "One-Page Newsletter Form Section"
+msgstr ""
+
+#: inc/widgets.php:128
+msgid ""
+"The signup form area of the Newsletter section which appears in the One-Page "
+"Template. Drag and drop a newsletter widget here to add a signup form."
+msgstr ""
+
+#: inc/widgets.php:142
+msgid "One-Page Services Section"
+msgstr ""
+
+#: inc/widgets.php:144
+msgid ""
+"The services section which appears in the One-Page template. Drag and drop Text "
+"Widgets here to add services."
+msgstr ""
+
+#: inc/widgets.php:158
+msgid "One-Page Team Section"
+msgstr ""
+
+#: inc/widgets.php:160
+msgid ""
+"The Team Members section which appears oin the One-Page Template. Drag and drop "
+"Text or Image Widgets here to add team members."
+msgstr ""
+
+#: inc/widgets.php:174
+msgid "One-Page Testimonials Section"
+msgstr ""
+
+#: inc/widgets.php:176
+msgid ""
+"The Testimonials section which appears in the One-Page Template. Drag and drop "
+"Text Widgets here to add testimonials."
+msgstr ""
+
+#: inc/wp-bootstrap-navwalker.php:404
+msgid "Add a menu"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: search.php:77
+msgid "Previous"
+msgstr ""
+
+#: search.php:78
+msgid "Next"
+msgstr ""
+
+#: searchform.php:8 searchform.php:16
+msgid "Search"
+msgstr ""
+
+#: searchform.php:12
+msgid "Enter term &hellip;"
+msgstr ""
+
+#: sections/team.php:17
+msgid "Our Team"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Serenity Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.themely.com/themes/serenity/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Serenity Lite is a clean, modern and elegant one-page theme built for "
+"professionals and small businesses. Its strength lies in displaying all your "
+"content on a single page, is easily customizable and allows you to build a "
+"stunning website in minutes. Serenity Lite doesn’t depend on frameworks or page "
+"builders to display content but relies on powerful native WordPress widgets, "
+"pages and Live Customizer. It’s responsive, search engine friendly and light-"
+"weight. Serenity Lite can be used for small business, startup, professional, "
+"agency, firm as well as personal portfolio websites or blogs. Features include a "
+"fully responsive layout, Font Awesome icons, Google fonts, working contact form "
+"and more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themely"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.themely.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full-width Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "One-page Template"
+msgstr ""

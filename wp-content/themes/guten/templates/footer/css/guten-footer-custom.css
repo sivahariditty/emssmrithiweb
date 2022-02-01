@@ -1,0 +1,109 @@
+/*--------------------------------------------------------------
+Vikkon - Footer Custom Styling
+--------------------------------------------------------------*/
+.site-footer-custom {
+    background-color: #fff;
+    color: #aaa;
+}
+
+.site-footer-custom .site-footer-widgets {
+    padding: 50px 0 30px;
+}
+.site-footer-custom .site-footer-widgets:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.footer-custom-block {
+    margin: 0;
+    padding: 10px 20px 20px;
+    list-style-type: none;
+    min-height: 20px;
+    float: left;
+}
+
+.site-footer .widget a {
+    color: inherit;
+}
+.site-footer-custom li.widget {
+    margin-bottom: 30px;
+}
+
+.guten-footer-custom-cols-1 .footer-custom-block {
+    width: 100%;
+}
+.guten-footer-custom-cols-2 .footer-custom-block {
+    width: 50%;
+}
+.guten-footer-custom-cols-3 .footer-custom-block {
+    width: 33.3333%;
+}
+.guten-footer-custom-cols-4 .footer-custom-block {
+    width: 25%;
+}
+.guten-footer-custom-cols-5 .footer-custom-block {
+    width: 20%;
+}
+.site-footer-custom .footer-custom-block:first-child {
+    padding-left: 0;
+}
+.site-footer-custom .footer-custom-block:last-child {
+    padding-right: 0;
+}
+
+.footer-custom-one.footer-custom-one-center {
+    margin: 0 auto;
+    float: none;
+}
+
+.site-boxed .site-footer {
+    box-shadow: 0 -2px 3px 0 rgba(238, 238, 238, 0.4), 0 1px 0 rgba(0, 0, 0, 0.08) inset, 1px 0 0 rgba(0, 0, 0, 0.08) inset, -1px 0 0 rgba(0, 0, 0, 0.08) inset;
+}
+.site-boxed .site-footer-bottom-bar {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) inset, 1px 0 0 rgba(0, 0, 0, 0.08) inset, -1px 0 0 rgba(0, 0, 0, 0.08) inset;
+}
+.content-boxed .site-boxed .site-footer {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) inset;
+}
+.content-boxed .site-boxed .site-footer-bottom-bar {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) inset;
+}
+
+@media only screen and (max-width: 782px) {
+
+    .site-footer .site-footer-widgets .site-container > ul {
+        display: block;
+    }
+    .guten-footer-custom-cols-1 .footer-custom-block,
+    .guten-footer-custom-cols-2 .footer-custom-block,
+    .guten-footer-custom-cols-3 .footer-custom-block,
+    .guten-footer-custom-cols-4 .footer-custom-block,
+    .guten-footer-custom-cols-5 .footer-custom-block {
+        padding: 10px 0 30px;
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .footer-custom-block.footer-custom-one,
+    .footer-custom-block.footer-custom-two,
+    .footer-custom-block.footer-custom-three,
+    .footer-custom-block.footer-custom-four,
+    .footer-custom-block.footer-custom-five {
+        width: 100% !important;
+    }
+    
+    .site-footer-bottom-bar-left,
+    .site-bottombar-switch .site-footer-bottom-bar-left {
+        float: none;
+        text-align: center;
+        padding: 10px 0 3px;
+    }
+    .site-footer-bottom-bar-right,
+    .site-bottombar-switch .site-footer-bottom-bar-right {
+        float: none;
+        text-align: center;
+        padding: 3px 0 12px;
+    }
+
+}

@@ -1,0 +1,336 @@
+/*--------------------------------------------------------------
+Guten - Transparent Header
+--------------------------------------------------------------*/
+.side-aligned-social {
+    top: 155px;
+}
+
+/* -- Site Top Bar -- */
+.site-top-border {
+    z-index: 101;
+}
+.site-top-bar {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    background-color: #133d6f;
+    color: #FFF;
+}
+.site-top-bar > .site-container {
+    position: relative;
+}
+.site-top-bar-left {
+    background-color: #133d6f;
+    float: left;
+    width: 50%;
+    padding: 2px 0 7px;
+    min-height: 35px;
+    position: relative;
+    z-index: 101;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+    text-align: left;
+}
+.site-topbar-no,
+.site-topbar-ad{
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: inherit;
+    margin: 0 8px 0 0;
+}
+.site-topbar-ad i.fa {
+    position: relative;
+    top: -1px;
+}
+.site-top-bar-right {
+    background-color: #133d6f;
+    float: right;
+    width: 50%;
+    text-align: right;
+    min-height: 35px;
+    position: relative;
+    z-index: 101;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset;
+}
+.site-top-bar-right-extra-txt {
+    display: inline-block;
+    font-size: 11px;
+    margin: 8px 14px 7px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+}
+
+.site-top-bar-switch .site-top-bar-left {
+    float: right;
+    text-align: right;
+}
+.site-top-bar-switch .site-top-bar-right {
+    float: left;
+    text-align: left;
+}
+.site-top-bar-switch .site-topbar-no,
+.site-top-bar-switch .site-topbar-ad {
+    margin: 0 0 0 8px;
+}
+.site-top-bar.guten-header-default.site-top-bar-switch .guten-header-nav ul li a {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+
+/* -- Site Header -- */
+.site-header {
+    margin: 0;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #000;
+}
+.site-header.guten-header-six > .site-container {
+    padding: 0 40px;
+}
+.site-header.site-header-nobanner,
+body.single-product.woocommerce .site-header {
+    position: relative;
+    margin: 0 0 60px;
+}
+.content-boxed .site-header.site-header-nobanner {
+    margin: 0;
+}
+.guten-header-bb {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.site-header-top {
+    color: #000;
+    float: right;
+}
+.site-header-switch .site-header-top {
+    float: left;
+}
+.site-header-top-left {
+    float: left;
+}
+.site-header-top-right {
+    float: right;
+}
+
+.site-header-switch .site-header-top-left {
+    float: right;
+}
+.site-header-switch .site-header-top-right {
+    float: left;
+}
+.site-header-switch a.header-cart-contents {
+    padding: 16px 1px 18px 15px;
+}
+.site-header-switch button.menu-search {
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08) inset;
+    text-align: right;
+    float: left;
+    margin: 0 8px 0 0;
+    padding: 10px 10px 11px 0;
+}
+.site-top-bar-switch .search-block {
+    right: auto;
+    left: 52px;
+}
+
+.site-branding {
+    padding: 15px 0 20px;
+    float: left;
+}
+.site-header-switch .site-branding {
+    float: right;
+    text-align: right;
+}
+.site-branding a {
+    display: block;
+    margin: 0 auto;
+}
+.site-branding a img {
+    display: block;
+}
+.site-branding-logo a {
+    display: inline-block;
+}
+.site-title {
+    margin: 0;
+    padding: 0;
+    font-size: 56px;
+    line-height: 58px;
+    font-weight: 300;
+    text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3);
+}
+.site-title a {
+    color: #000 !important;
+}
+.site-description {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: inherit;
+}
+.site-branding-float-all .custom-logo-link {
+    float: left;
+}
+.site-branding-float {
+    text-align: left;
+    float: left;
+    padding-left: 12px;
+}
+
+.site-top-bar .social-icon {
+    color: inherit;
+    float: right;
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08);
+    margin: 0;
+    padding: 5px 6px 4px;
+}
+.site-top-bar-switch .social-icon {
+    float: left;
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+
+/* ---- Site Title - Banner */
+.page-titlebar.guten-page-titlebar-banner {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+#primary-menu,
+#main-menu > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header-cart {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+a.header-cart-contents {
+    color: inherit !important;
+    padding: 16px 0 18px 15px;
+    display: block;
+}
+.site-top-bar .header-cart a.header-cart-contents {
+    padding: 8px 10px 7px;
+}
+.header-cart-checkout {
+    margin: 0 0 0 4px;
+    position: relative;
+    top: -1px;
+}
+.site-top-bar button.menu-search {
+    float: right;
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08) inset;
+    text-align: right;
+    margin: 0 0 0 1px;
+    padding: 1px 0 1px 5px;
+    font-size: 13px;
+}
+.search-btn {
+    display: block;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.search-block {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    background-color: #133d6f;
+    border-top: 0;
+    border-radius: 0 0 3px 3px;
+    bottom: 2px;
+    right: 21px;
+    padding: 36px 9px 9px;
+    z-index: 100;
+
+    -webkit-transition: bottom 0.3s ease 0s;
+    -moz-transition: bottom 0.3s ease 0s;
+    -ms-transition: bottom 0.3s ease 0s;
+    -o-transition: bottom 0.3s ease 0s;
+    transition: bottom 0.3s ease 0s;
+}
+.search-block .search-field {
+    font-size: 13px;
+    margin: 0;
+    padding: 5px 8px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 0;
+    background-color: #FFF;
+    width: 310px;
+    font-weight: 200;
+    outline: none;
+    color: #000;
+    box-sizing: border-box;
+}
+.search-block .search-submit {
+    display: none;
+}
+
+.site-top-bar-switch button.menu-search {
+    float: left;
+    padding: 1px 5px 1px 0;
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+}
+.site-top-bar-switch .search-block {
+    right: auto;
+    left: 21px;
+}
+
+.show-site-search .search-block {
+    bottom: -76px;
+}
+
+/* -- Site Boxed -- */
+.site-boxed .site-top-bar .site-container {
+    padding: 0 20px;
+}
+.site-boxed .site-header {
+    max-width: 1240px;
+}
+
+/* -------- Naviagtion Elements -------- */
+#main-menu {
+    text-align: center;
+}
+.main-navigation {
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-navigation li a {
+    padding: 43px 16px 45px;
+}
+.main-navigation.guten-nav-style-blocks li a {
+    padding: 43px 8px 45px;
+}
+.main-navigation.guten-nav-style-blocks ul ul li a {
+    padding: 16px 16px 18px;
+}
+.main-navigation ul ul {
+    top: 105px;
+}
+.main-navigation ul ul li {
+    position: relative;
+}
+.main-navigation ul li:hover > ul,
+.main-navigation ul li:focus > ul,
+.main-navigation ul li.focus > ul,
+.main-navigation ul li:active > ul {
+    right: auto;
+    left: 0;
+}
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li:focus > ul,
+.main-navigation ul ul li.focus > ul,
+.main-navigation ul ul li:active > ul {
+    right: auto;
+    left: 100%;
+}
